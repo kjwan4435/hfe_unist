@@ -1,0 +1,303 @@
+{% extends 'hfe/ko/layouts/application.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Page Content -->
+<div class="container">
+  <br>
+  <br>
+  <div class="faculty_title" style="margin-top:50px;">
+    <span style="font-size: 2.1rem">Faculty</span>  
+  </div>
+
+  <div class="row">
+    <div class="col-md-1 col-xs-2"></div>
+    <div class="col-md-3 col-xs-4">
+      <img src= "{% static 'images/faculty/mwlee.png'%}" style= "width:80%;" class="faculty_pic"> 
+      <!-- <%= image_tag("faculty/mwlee.png", style: "width:80%;", class: "faculty_pic") %>    -->
+    </div>
+    <div class="faculty_brief">
+      <div class="col-md-7 col-xs-4">
+        <div class="professor_name">이면우</div>
+        <div class="professor_position">석좌교수</div>
+        <div class="professor_email">mwlee@unist.ac.kr</div>
+        <div class="professor_phone">052-217-2717</div>
+        <br/>
+      </div>
+      <!-- <div class="col-md-1 col-xs-2"> -->
+        <!-- <a href="http://ixlab.unist.ac.kr" style="color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;" id="logo"><img src="{% static 'images/faculty/arrow1.png' %}" alt=""></a>  -->
+        <!-- <%= link_to image_tag('faculty/arrow1.png'), "http://ixlab.unist.ac.kr", style:"color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;", id:"logo" %> -->
+      <!-- </div> -->
+    </div>
+    <div class="faculty_detail">
+      <div class="col-md-1 col-xs-2"></div>
+      <div class="col-md-3 col-xs-4">
+        인간공학<br/>
+        하이터치<br/>
+      </div>
+      <div class="col-md-4 col-xs-4">
+          미시간 대학교 인간공학 박사 (1979년)<br/>
+
+      </div>  
+    </div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-2"></div>
+    <div class="col-md-3 col-xs-4">
+      <img src= "{% static 'images/faculty/ghkyung.png'%}" style= "width:80%;" class="faculty_pic">
+      <!-- <%= image_tag("faculty/ghkyung.png", style: "width:80%;", class: "faculty_pic") %>    -->
+    </div>
+    <div class="faculty_brief">
+      <div class="col-md-7 col-xs-4">
+        <div class="professor_name">경규형</div>
+        <div class="professor_position">부교수</div>
+        <div class="professor_email">ghkyung@unist.ac.kr</div>
+        <div class="professor_phone">052-217-2711</div>
+        <br/>
+      </div>
+      <div class="col-md-1 col-xs-2">
+        <a href="http://ixlab.unist.ac.kr" style="color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;" id="logo"><img src="{% static 'images/faculty/arrow1.png' %}" alt=""></a> 
+        <!-- <%= link_to image_tag('faculty/arrow1.png'), "http://ixlab.unist.ac.kr", style:"color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;", id:"logo" %> -->
+      </div>
+    </div>
+    <div class="faculty_detail">
+      <div class="col-md-1 col-xs-2"></div>
+      <div class="col-md-3 col-xs-4">
+        인체-기계 인터페이스<br/>
+        신경공학<br/>
+        시각인체공학<br/>
+        운송인체공학<br/>
+        디지털 인체 모델링<br/>
+        사용자 중심 디자인
+      </div>
+      <div class="col-md-4 col-xs-4">
+          미국 버지니아 폴리 테크닉 주립대학교 <br/>
+          산업 및 시스템 공학 박사 (2008년)
+      </div>  
+    </div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-2"></div>
+    <div class="col-md-3 col-xs-4">
+      <img src= "{% static 'images/faculty/yskwak.png'%}" style= "width:80%;" class="faculty_pic">
+      <!-- <%= image_tag("faculty/yskwak.png", style: "width:80%;", class: "faculty_pic") %>    -->
+    </div>
+    <div class="faculty_brief">
+      <div class="col-md-7 col-xs-4">
+        <div class="professor_name">곽영신</div>
+        <div class="professor_position">부교수</div>
+        <div class="professor_email">yskwak@unist.ac.kr</div>
+        <div class="professor_phone">052-217-2710</div>
+        <br/>
+      </div>
+      <div class="col-md-1 col-xs-2">
+        <a href="http://yskwak.unist.ac.kr" style="color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;" id="logo"><img src="{% static 'images/faculty/arrow1.png' %}" alt=""></a> 
+        <!-- <%= link_to image_tag('faculty/arrow1.png'), "http://yskwak.unist.ac.kr", style:"color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;", id:"logo" %> -->
+      </div>
+    </div>
+    <div class="faculty_detail">
+      <div class="col-md-1 col-xs-2"></div>
+      <div class="col-md-3 col-xs-4">
+        색채공학<br/>
+        감성공학
+      </div>
+      <div class="col-md-4 col-xs-4">
+          영국 더비대학교<br/>
+          Colour & Imaging Institute 박사 (2003년)
+      </div>  
+    </div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-2"></div>
+    <div class="col-md-3 col-xs-4">
+      <img src= "{% static 'images/faculty/oskwon.png'%}" style= "width:80%;" class="faculty_pic">
+      <!-- <%= image_tag("faculty/oskwon.png", style: "width:80%;", class: "faculty_pic") %>    -->
+    </div>
+    <div class="faculty_brief">
+      <div class="col-md-7 col-xs-4">
+        <div class="professor_name">권오상</div>
+        <div class="professor_position">조교수</div>
+        <div class="professor_email">oskwon@unist.ac.kr</div>
+        <div class="professor_phone">052-217-2735</div>
+        <br/>
+      </div>
+      <div class="col-md-1 col-xs-2">
+        <a href="http://pal.unist.ac.kr" style="color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;" id="logo"><img src="{% static 'images/faculty/arrow1.png' %}" alt=""></a> 
+        <!-- <%= link_to image_tag('faculty/arrow1.png'), "http://pal.unist.ac.kr/", style:"color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;", id:"logo" %> -->
+      </div>
+    </div>
+    <div class="faculty_detail">
+      <div class="col-md-1 col-xs-2"></div>
+      <div class="col-md-3 col-xs-4">
+        인간의 지각과 운동
+      </div>
+      <div class="col-md-4 col-xs-4">
+        퍼듀대학교<br/>
+        수학 심리학 박사
+      </div>  
+    </div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-2"></div>
+    <div class="col-md-3 col-xs-4">
+      <img src= "{% static 'images/faculty/spkim.png'%}" style= "width:80%;" class="faculty_pic">
+      <!-- <%= image_tag("faculty/spkim.png", style: "width:80%;", class: "faculty_pic") %>    -->
+    </div>
+    <div class="faculty_brief">
+      <div class="col-md-7 col-xs-4">
+        <div class="professor_name">김성필</div>
+        <div class="professor_position">부교수</div>
+        <div class="professor_email">spkim@unist.ac.kr</div>
+        <div class="professor_phone">052-217-2727</div>
+        <br/>
+      </div>
+      <div class="col-md-1 col-xs-2">
+        <a href="http://bci.unist.ac.kr" style="color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;" id="logo"><img src="{% static 'images/faculty/arrow1.png' %}" alt=""></a> 
+        <!-- <%= link_to image_tag('faculty/arrow1.png'), "http://bci.unist.ac.kr", style:"color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;", id:"logo" %> -->
+      </div>
+    </div>
+    <div class="faculty_detail">
+      <div class="col-md-1 col-xs-2"></div>
+      <div class="col-md-3 col-xs-4">
+        뇌공학
+      </div>
+      <div class="col-md-4 col-xs-4">
+        미국 플로리다 대학교<br/>
+        전기 및 컴퓨터공학과 박사 (2005년)
+      </div>  
+    </div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-2"></div>
+    <div class="col-md-3 col-xs-4">
+      <img src= "{% static 'images/faculty/gshin.png'%}" style= "width:80%;" class="faculty_pic">
+      <!-- <%= image_tag("faculty/gshin.png", style: "width:80%;", class: "faculty_pic") %>    -->
+    </div>
+    <div class="faculty_brief">
+      <div class="col-md-7 col-xs-4">
+        <div class="professor_name">신관섭</div>
+        <div class="professor_position">부교수</div>
+        <div class="professor_email">gshin@unist.ac.kr</div>
+        <div class="professor_phone">052-217-2719</div>
+        <br/>
+      </div>
+      <div class="col-md-1 col-xs-2">
+        <a href="http://ergolab.unist.ac.kr" style="color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;" id="logo"><img src="{% static 'images/faculty/arrow1.png' %}" alt=""></a> 
+        <!-- <%= link_to image_tag('faculty/arrow1.png'), "http://ergolab.unist.ac.kr/", style:"color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;", id:"logo" %> -->
+      </div>
+    </div>
+    <div class="faculty_detail">
+      <div class="col-md-1 col-xs-2"></div>
+      <div class="col-md-3 col-xs-4">
+        인체공학<br/>
+        생체역학
+      </div>
+      <div class="col-md-4 col-xs-4">
+        미국 노스캐롤라니아 주립대학교<br/>
+        산업공학 박사(2005년)
+      </div>
+    </div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-2"></div>
+    <div class="col-md-3 col-xs-4">
+      <img src= "{% static 'images/faculty/ian.png'%}" style= "width:80%;" class="faculty_pic">
+      <!-- <%= image_tag("faculty/ian.png", style: "width:80%;", class: "faculty_pic") %>    -->
+    </div>
+    <div class="faculty_brief">
+      <div class="col-md-7 col-xs-4">
+        <div class="professor_name">이안 오클리</div>
+        <div class="professor_position">부교수</div>
+        <div class="professor_email">ian.r.oakley@gmail.com</div>
+        <div class="professor_phone">052-217-2724</div>
+        <br/>
+      </div>
+      <div class="col-md-1 col-xs-2">
+        <a href="http://interactions.unist.ac.kr" style="color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;" id="logo"><img src="{% static 'images/faculty/arrow1.png' %}" alt=""></a> 
+        <!-- <%= link_to image_tag('faculty/arrow1.png'), "http://interactions.unist.ac.kr", style:"color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;", id:"logo" %> -->
+      </div>
+    </div>
+    <div class="faculty_detail">
+      <div class="col-md-1 col-xs-2"></div>
+      <div class="col-md-3 col-xs-4">
+        사람-컴퓨터 상호작용(HCI)
+      </div>
+      <div class="col-md-4 col-xs-4">
+        영국 글래스고 대학교<br/>
+        컴퓨터과학 박사 (2003년)
+      </div>  
+    </div>
+  </div><!-- row -->
+  
+  <div class="row">
+    <div class="col-md-1 col-xs-2"></div>
+    <div class="col-md-3 col-xs-4">
+      <img src= "{% static 'images/faculty/dichung.png'%}" style= "width:80%;" class="faculty_pic">
+      <!-- <%= image_tag("faculty/dichung.png", style: "width:80%;", class: "faculty_pic") %>    -->
+    </div>
+    <div class="faculty_brief">
+      <div class="col-md-7 col-xs-4">
+        <div class="professor_name">정동일</div>
+        <div class="professor_position">조교수</div>
+        <div class="professor_email">dchung@unist.ac.kr</div>
+        <div class="professor_phone">052-217-2744</div>
+        <br/>
+      </div>
+      <div class="col-md-1 col-xs-2">
+        <a href="http://dnce.unist.ac.kr" style="color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;" id="logo"><img src="{% static 'images/faculty/arrow1.png' %}" alt=""></a> 
+        <!-- <%= link_to image_tag('faculty/arrow1.png'), "http://dnce.unist.ac.kr", style:"color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;", id:"logo" %> -->
+      </div>
+    </div>
+    <div class="faculty_detail">
+      <div class="col-md-1 col-xs-2"></div>
+      <div class="col-md-3 col-xs-4">
+        의사결정의 신경과학<br/>
+        뇌영상 및 계산신경 모델링
+      </div>
+      <div class="col-md-4 col-xs-4">
+        카이스트<br/>
+        바이오 & 뇌 공학 박사 (2011년)
+      </div>  
+    </div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-2"></div>
+    <div class="col-md-3 col-xs-4">
+      <img src= "{% static 'images/faculty/dooyoung.png'%}" style= "width:80%;" class="faculty_pic">
+      <!-- <%= image_tag("faculty/dooyoung.png", style: "width:80%;", class: "faculty_pic") %>    -->
+    </div>
+    <div class="faculty_brief">
+      <div class="col-md-7 col-xs-4">
+        <div class="professor_name">정두영</div>
+        <div class="professor_position">조교수, UNIST 헬스케어센터장 </div>
+        <div class="professor_email">dooyoung@unist.ac.kr</div>
+        <div class="professor_phone">052-217-2739</div>
+        <br/>
+      </div>
+      <div class="col-md-1 col-xs-2">
+        <a href="https://sites.google.com/view/unist-healthcare-lab" style="color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;" id="logo"><img src="{% static 'images/faculty/arrow1.png' %}" alt=""></a> 
+        <!-- <%= link_to image_tag('faculty/arrow1.png'), "https://sites.google.com/view/unist-healthcare-lab", style:"color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;", id:"logo" %> -->
+      </div>
+    </div>
+    <div class="faculty_detail">
+      <div class="col-md-1 col-xs-2"></div>
+      <div class="col-md-3 col-xs-4">
+        정신의학<br/>
+        행동과학
+      </div>
+      <div class="col-md-4 col-xs-4">
+        서울대학교 의과대학<br/>
+        정신과학 의학박사
+      </div>  
+    </div>
+  </div><!-- row -->
+</div> <!-- container -->
+
+{% endblock content %}

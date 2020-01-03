@@ -1,0 +1,394 @@
+ko:
+  main:
+    title: "“사용자를 과학적으로 이해하여 공학적인 인간중심 디자인 구현”"
+    subtitle: 유니스트 인간공학
+  navbar:
+    menu1: 소개
+    menu2: 연구
+    menu3: 교육과정
+    menu4: 소식
+    menu5: 사람들
+    language_selector_img_path: navbar_deco/language_selector_ko.png
+    language_selector_link: /en
+  footer:
+    content1: 유니스트 디자인 및 인간공학부
+    content2: (44919) 울산광역시 울주군 언양읍 유니스트길 50
+    contact1: 학과
+    contact2: 학교
+  about:
+    content1: 인간공학은 인간 신체와 인지에 대한 과학적 이해를 바탕으로 인간과 시스템 (제품, 기계, 컴퓨터) 사이에 일어나는 물리적 및 인지적 상호작용을 연구하는 분야이며, 이러한 과학적 연구를 통해 얻어지는 데이터를 이용하여 인간의 안전과 편의를 향상시키고 시스템의 효율성을 높일 수 있는 인간중심 최적설계와 제품 개발의 역할을 합니다.
+    content2: 인간공학은 인지심리학, 생리학, 컴퓨터과학, 산업공학, 기계공학, 산업디자인 등의 다양한 분야에 기초를 두고 있으며, 뇌공학, 감성공학, 피지컬컴퓨팅, 의료생체역학 등의 응용분야를 가지고 있습니다.
+    content3: 유니스트의 인간공학은 과학과 공학에 기초를 둔 인간중심 디자인을 추구하며, 이를 통해 인류의 복지와 행복 향상에 기여하고자 합니다.
+    unit_person: "단위: 명"
+  research:
+    content1: 유니스트 인간공학과는 인간의 인지 및 신체 특성과 반응에 대한 다양한 데이터를 과학적으로 분석하고 이를 공학적으로 활용하는 Human Data Science and Engineering 연구를 수행합니다. 
+    content2: 인간이 제품, 로봇, 자동차 등의 기계와 컴퓨터를 사용할 때 시각, 청각, 촉각등의 정보를 어떻게 받아들이고 해석하는지, 그리고 어떤 움직임과 힘을 받고 전달하는지 등을 실험을 통해 분석합니다.  
+    content3: 분석한 데이터를 이용하여 최적의 의료-재활기기, 착용형 인터페이스, 뇌-컴퓨터 인터페이스, 인간편의 제품 개발등의 분야에 적용합니다.
+    egro:
+      lab_name: Ergo lab
+      lab_full_name: 인체공학 연구실
+      lab_vision: “인체공학적 분석을 통해 편리하고 안전한 제품과 환경 설계”
+      lab_description: 인체공학 연구실에서는 동작 분석 카메라, 근전도 센서, 시뮬레이션 등을 활용하여 다양한 생체신호를 측정 및 분석하고, 이를 바탕으로 인간과 제품 혹은 환경과의 물리적 상호작용을 연구합니다. 주요 연구 분야는 근골격계 질환과 부상의 발생을 예방하고 재활을 도와주기 위한 ‘의료 생체역학’, 인체 특성에 최적화되어 사용하기 편리하고 안전한 제품을 설계하는 ‘인체공학적 디자인’을 포함합니다.
+    bci:
+      lab_name: BCI lab
+      lab_full_name: 뇌-컴퓨터 인터페이스 연구실
+      lab_vision: “뇌공학 연구를 통한 인간행동과 뇌기전 이해 및 인간 삶에 필요한 기술 개발”
+      lab_description: 뇌-컴퓨터 상호관계 연구실에서는 인간의 이해를 위하여 뇌신호를 측정, 분석하여 뇌 안의 활동 기전을 고찰하고 이를 바탕으로 인간의 삶에 필요한 기술을 개발하는 연구를 합니다. 우리 연구실의 주요 연구 분야는 ‘뇌-컴퓨터 상호관계‘, ‘뉴로 마케팅‘, ‘생체 인증’, ‘촉각 뇌영상‘, ‘로보틱 촉감 모델링‘을 포함합니다.
+    interactions:
+      lab_name: Interactions Lab
+      lab_full_name: 인터랙션 연구실
+      lab_vision: “웨어러블, 실체적 인터랙션, 소셜 인터랙티브 컴퓨팅 시스템 등을 디자인, 개발 및 평가”
+      lab_description: 인터랙션 연구실에서는 웨어러블, 실체적 인터랙션, 소셜 인터랙티브 컴퓨팅 시스템 등을 디자인, 개발 및 평가합니다. 디자인 관점, 컴퓨터 과학 기술 및 심리학적 방법을 결합하여 차세대 인간-컴퓨터 인터페이스를 고안해서 제작하여 연구합니다.
+    healthcare:
+      lab_name: Healthcare Lab
+      lab_full_name: 헬스케어 조사 & 기계 연구실
+      lab_vision: “인간이 건강한 삶을 살게 하는 기술”
+      lab_description: 헬스케어 영역에서 큰 변화가 진행되고 있습니다. 현대화된 사회에서 스트레스로 인해 정신건강에 대한 비용 증가합니다. 비만, 당뇨, 고혈압 등의 생활습관과 밀접한 만성질환이 중요해집니다. 수명연장으로 인해 노화, 치매 등의 문제가 발생합니다. 인간은 병원에서 뿐 아니라 일상생활에서도 더 많은 의학적인 도움을 필요로 하게 됩니다. 헬스케어연구실은 이런 문제를 인간공학적 관점에서 바라보고자 합니다.
+    ix:
+      lab_name: IX Lab
+      lab_full_name: 상호작용 & 경험 연구실
+      lab_vision: “인간공학적 시각에 근거하여 더욱 효율적이고 실용적인 제품과 시스템 평가 및 개발”
+      lab_description: IX lab 의 연구 목적은 인간의 신체적, 인지적, 정서적 요인을 고려하여 더 나은 인간 - 시스템 인터페이스를 설계하고 다양한 시스템을 개선하는 것입니다. IX lab 에서는 사용자 경험 (UX)을 향상시키기 위해 더 나은 디자인 / 제품 / 시스템을 (ex. 편안하고, 편리하고, 만족스럽고, 유용하고, 효과적이며, 즐겁고, 즐겁고, 즐겁게) 만들기 위해 노력합니다. 이제 'i'는 혁신적이고 직관적이며 통찰력 있고 지능적이며 포괄적 인 인터페이스 / 상호 작용으로 확장되었습니다.
+    perception:
+      lab_name: Perception & Action Lab
+      lab_full_name: 지각-행동 연구실
+      lab_vision: “인간은 어떻게 각자의 지각된 세상을 만들어내는가?”
+      lab_description: 지각-행동 연구실은 1) 인간의 지각 체계가 어떻게 불완전하고 불명확한 감각자극을 처리하여 주변 세상에 대한 명료한 표상을 만들어내고, 2) 이에 대한 효과적인 반응을 산출해 낼 수 있는지를 연구하며,  3) 또한, 이러한 연구 결과들을 삶의 질을 향상시키는데 응용하는 것을 목표로 하고 있습니다.
+    color:
+      lab_name: Color Lab
+      lab_full_name: 색채공학 연구실
+      lab_vision: “색채 및 영상에 대한 인간의 시지각 특성 연구”
+      lab_description: 색채과학은 사람이 인지하는 색에 관해 연구하는 과학 분야 입니다. 색채 및 감성공학 연구실에서는 색, 질감과 같은 시각 특성에 관한 수학적 모델을 개발하고, 시각 특성과 감성의 관계에 관한 연구를 진행하고 있으며, 이를 디스플레이 화질 향상, 감성 조명 개발 등에 응용하는 것을 목표로 합니다.
+    dnce:
+      lab_name: DNCE Lab
+      lab_full_name: 의사결정 및 인지신경공학 연구실
+      lab_vision: “인간의 뇌는 어떻게 가치평가와 결정을 내리는가?”
+      lab_description: 의사결정 및 인지신경공학 연구실은 다양한 경제학적 실험들과 뇌 영상을 이용해 인간의 뇌가 어떤 기작을 통해 사회적/비사회적 정보를 처리하는지를 연구합니다. 더 나아가 건강한 사람들의 행동 패턴을 이용해 설계한 계산신경 모델을 기반으로 정신질환을 앓고있는 사람들의 행동 결정에 대한 이해를 하고자합니다.
+  curriculum:
+    undergraduate: 학부
+    graduate: 대학원
+    sophomore: 2 학년
+    junior: 3 학년
+    senior: 4 학년
+    required: 필수
+    elective: 선택
+    HFE202_title: 인간공학개론
+    HFE205_title: 인체인간공학
+    HFE206_title: 인지인간공학
+    HFE301_title: 실험계획법
+    HFE306_title: 사용성공학
+    HFE401_title: 캡스톤 디자인
+    IID201_title: 디자인 요소와 원리
+    SDC202_title: 공학전산기법
+    HFE303_title: 색채과학과 공학
+    HFE304_title: 하이터치 디자인
+    HFE305_title: 피지컬 컴퓨팅
+    HFE308_title: 감각과 지각
+    HFE309_title: 작업측정 및 방법
+    HFE310_title: 뇌와 인간행동 I - 공통 특성
+    HFE311_title: 뇌와 인간행동 II - 개인차
+    HFE404_title: 뇌-컴퓨터 인터페이스 디자인
+    HFE405_title: 안전공학
+    HFE406_title: 감성공학
+    HFE407_title: 인간공학 연구 실무
+    HFE410_title: 인간공학 특론 Ⅰ
+    HFE420_title: 인간공학 특론 II
+    IID202_title: 제품디자인기초
+    IID206_title: 디자인 시각화
+    IID231_title: 디자인 지식과 기술
+    IID232_title: 3D CAD
+    IID304_title: 인터랙티브 기술
+    IID341_title: 기초전기전자실습
+    SDC304_title: 생산시스템설계 및 시뮬레이션
+    CSE463_title: 기계 학습
+    MGT363_title: 계량경영학
+    HFE504_title: 석사졸업과제
+    HFE590_title: 세미나
+    HFE690_title: 석사논문연구
+    HFE890_title: 박사논문연구
+    HFE540_title: 인간공학연구설계
+    HFE542_title: 고등다변량기법과 데이터마이닝
+    HFE543_title: 교통시스템과 인간수행력
+    HFE550_title: 작업 생체 역학
+    HFE558_title: 인간정보처리
+    HFE740_title: 인간공학 특론 1
+    HFE741_title: 인간공학 특론 2
+    HFE742_title: 인간공학 특론 3
+    HFE743_title: 인간공학 특론 4
+    HFE745_title: 인간공학기법과 방법론 1
+    HFE746_title: 인간공학기법과 방법론 2
+    HFE747_title: 인간공학기법과 방법론 3
+    HFE748_title: 인간공학기법과 방법론 4
+    HFE560_title: 색채과학
+    HFE561_title: 정신물리학
+    HFE562_title: 크로스미디어컬러 리프로덕션
+    HFE701_title: 하이터치 고등논제
+    HFE761_title: 인간시각
+    HFE762_title: 고급색채과학
+    HFE790_title: 인간공학 연구주제
+    HFE552_title: 인간과 컴퓨터 상호작용
+    HFE910_title: 인터렉션 디자인
+    HFE911_title: 인간중심 디자인
+    HFE912_title: 컨텍스츄얼 디자인
+    first_semester: 1학기
+    second_semester: 2학기
+    all_semester: 1,2학기
+  faculty:
+    mwlee:
+      name: 이면우
+      position: 석좌교수
+      research_area1: 인간공학
+      research_area2: 하이터치
+      biography1: 미시간 대학교, 대학원
+      biography2: 인간공학 박사 (1979년)
+    gshin:
+      name: 신관섭
+      position: 부교수
+      research_area1: 인체공학
+      research_area2: 생체역학
+      biography1: 미국 노스캐롤라이나 주립대학교
+      biography2: 산업공학 박사 (2005년)
+    ghkyung:
+      name: 경규형
+      position: 부교수
+      research_area1: 인체-기계 인터페이스
+      research_area2: 신경공학
+      research_area3: 시각인체공학
+      research_area4: 운송인체공학
+      research_area5: 디지털 인체 모델링
+      research_area6: 사용자 중심 디자인
+      biography1: 미국 버지니아 폴리 테크닉 주립대학교
+      biography2: 산업 및 시스템 공학 박사 (2008년)
+    ian:
+      name: 이안 오클리
+      position: 부교수
+      research_area1: 사람-컴퓨터 상호작용
+      biography1: 영국 글래스고 대학교
+      biography2: 컴퓨터과학 박사 (2003년)
+    spkim:
+      name: 김성필
+      position: 부교수
+      research_area1: 뇌공학
+      biography1: 미국 플로리다 주립대학교
+      biography2: 전기및컴퓨터공학과 박사 (2005년)
+    dooyoung:
+      name: 정두영
+      position: 조교수, UNIST 헬스케어센터장
+      research_area1: 정신의학
+      research_area2: 행동과학
+      biography1: 서울대학교 의과대학
+      biography2: 정신과학 의학박사
+    dichung:
+      name: 정동일
+      position: 조교수
+      research_area1: 의사결정의 신경과학
+      research_area2: 뇌영상 및 계산신경 모델링
+      biography1: 카이스트
+      biography2: 바이오 & 뇌 공학 박사 (2011)
+      phone: 미정
+      email: 미정
+    yskwak:
+      name: 곽영신
+      position: 부교수
+      research_area1: 색채공학
+      research_area2: 감성공학
+      biography1: 영국 더비대학교
+      biography2: Colour & Imaging Institute 박사 (2003년)
+    oskwon:
+      name: 권오상
+      position: 조교수
+      research_area1: 인간의 지각과 운동
+      biography1: 퍼듀대학교
+      biography2: 수리 심리학 박사
+  activerecord:
+    errors:
+      messages:
+        record_invalid: 데이터 검증에 실패하였습니다. %{errors}
+  date:
+    abbr_day_names:
+    - 일
+    - 월
+    - 화
+    - 수
+    - 목
+    - 금
+    - 토
+    abbr_month_names:
+    -
+    - 1월
+    - 2월
+    - 3월
+    - 4월
+    - 5월
+    - 6월
+    - 7월
+    - 8월
+    - 9월
+    - 10월
+    - 11월
+    - 12월
+    day_names:
+    - 일요일
+    - 월요일
+    - 화요일
+    - 수요일
+    - 목요일
+    - 금요일
+    - 토요일
+    formats:
+      default: "%Y/%m/%d"
+      long: "%Y년 %m월 %d일 (%a)"
+      short: "%m/%d"
+    month_names:
+    -
+    - 1월
+    - 2월
+    - 3월
+    - 4월
+    - 5월
+    - 6월
+    - 7월
+    - 8월
+    - 9월
+    - 10월
+    - 11월
+    - 12월
+    order:
+    - :year
+    - :month
+    - :day
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: 약 한 시간
+        other: 약 %{count}시간
+      about_x_months:
+        one: 약 한 달
+        other: 약 %{count}달
+      about_x_years:
+        one: 약 일 년
+        other: 약 %{count}년
+      almost_x_years:
+        one: 일 년 이하
+        other: "%{count}년 이하"
+      half_a_minute: 30초
+      less_than_x_minutes:
+        one: 일 분 이하
+        other: "%{count}분 이하"
+      less_than_x_seconds:
+        one: 일 초 이하
+        other: "%{count}초 이하"
+      over_x_years:
+        one: 일 년 이상
+        other: "%{count}년 이상"
+      x_days:
+        one: 하루
+        other: "%{count}일"
+      x_minutes:
+        one: 일 분
+        other: "%{count}분"
+      x_months:
+        one: 한 달
+        other: "%{count}달"
+      x_seconds:
+        one: 일 초
+        other: "%{count}초"
+    prompts:
+      day: 일
+      hour: 시
+      minute: 분
+      month: 월
+      second: 초
+      year: 년
+  errors:
+    format: "%{message}"
+    messages:
+      accepted: "%{attribute}을(를) 반드시 확인해야 합니다"
+      blank: "%{attribute}에 내용을 입력해 주세요"
+      confirmation: "%{attribute}은(는) 서로 일치해야 합니다"
+      empty: "%{attribute}에 내용을 입력해 주세요"
+      equal_to: "%{attribute}은(는) %{count}과 같아야 합니다"
+      even: "%{attribute}에 짝수를 입력해 주세요"
+      exclusion: "%{attribute}은(는) 이미 예약되어 있는 값입니다"
+      greater_than: "%{attribute}은(는) %{count}보다 커야 합니다"
+      greater_than_or_equal_to: "%{attribute}은(는) %{count}보다 크거야 같아야 합니다"
+      inclusion: "%{attribute}은(는) 목록에 포함되어 있는 값이 아닙니다"
+      invalid: "%{attribute}은(는) 올바르지 않은 값입니다"
+      less_than: "%{attribute}은(는) %{count}보다 작아야 합니다"
+      less_than_or_equal_to: "%{attribute}은(는) %{count}과 작거나 같아야 합니다"
+      not_a_number: "%{attribute}에 숫자를 입력해 주세요"
+      not_an_integer: "%{attribute}에 정수를 입력해 주세요"
+      odd: "%{attribute}에 홀수를 입력해 주세요"
+      taken: "%{attribute}은(는) 이미 존재합니다"
+      too_long: "%{attribute}은(는) %{count}자를 넘을 수 없습니다"
+      too_short: "%{attribute}은(는) 적어도 %{count}자를 넘어야 합니다"
+      wrong_length: "%{attribute}은(는) %{count}자여야 합니다"
+    template:
+      body: '아래 문제를 확인해 주세요.'
+      header:
+        one: 한 개의 오류로 인해 %{model}을(를) 저장할 수 없습니다
+        other: "%{count}개의 오류로 인해 %{model}을(를) 저장할 수 없습니다"
+  helpers:
+    select:
+      prompt: 선택해주세요
+    submit:
+      create: 등록
+      submit: 제출
+      update: 수정
+  number:
+    currency:
+      format:
+        delimiter: ","
+        format: "%n%u"
+        precision: 0
+        separator: "."
+        significant: false
+        strip_insignificant_zeros: false
+        unit: 원
+    format:
+      delimiter: ","
+      precision: 3
+      separator: "."
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n%u"
+        units:
+          billion: 십억
+          million: 백만
+          quadrillion: 경
+          thousand: 천
+          trillion: 조
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n%u"
+        units:
+          byte: 바이트
+          gb: 기가바이트
+          kb: 킬로바이트
+          mb: 메가바이트
+          tb: 테라바이트
+    percentage:
+      format:
+        delimiter: ''
+    precision:
+      format:
+        delimiter: ''
+  support:
+    array:
+      last_word_connector: ", "
+      two_words_connector: '와(과) '
+      words_connector: ", "
+  time:
+    am: 오전
+    formats:
+      default: "%Y/%m/%d %H:%M:%S"
+      long: "%Y년 %m월 %d일, %H시 %M분 %S초 %Z"
+      short: "%y/%m/%d %H:%M"
+    pm: 오후

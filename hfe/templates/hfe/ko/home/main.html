@@ -1,0 +1,183 @@
+{% extends 'hfe/ko/layouts/application.html' %}
+{% load static %}
+
+{% block content %}
+<div class="main_title_wrapper web">
+  <div class="title first">“Study of cognitive and physical interactions between humans and systems”</div>
+  <div class="title second">Department of Human Factors Engineering</div>
+</div>
+
+<div class="main_title_wrapper mobile">
+  <div class="title first">“Study of cognitive and physical interactions between humans and systems”</div>
+  <div class="title second">Department of Human Factors Engineering</div>
+</div>
+
+
+<!-- Header Carousel -->
+  <header id="myCarousel" class="carousel slide" style="margin-bottom:50px;">
+      <!-- Indicators -->
+      <div id ="indicator-wrapper">
+        <ol class="carousel-indicators" style="bottom:-60px; background: #c1c1c1; height:50px; left:0%; margin-left:0; width:100%; text-align: right;
+        padding-right:80px;">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div id="change_wrapper" style="position: absolute; bottom:0; margin-bottom:-37px; width: 100%; z-index: 50; text-align: center;">
+          <span id="chage_first"></span>
+          <div id="change_theme" style="display: inline-block; text-align: center;">
+          Biomechanics research to understand human physical capacity and limitation
+          </div>
+          <!-- People-friendly. -->
+        </div>
+      </div>
+
+      <div class="carousel-inner">
+          <div class="item active">
+              <div class="fill" style="background-image: url('{% static 'images/main/carousel_ergonomics.jpg' %}');"></div>
+              <!-- <div class="fill" style="background-image: url('{<%= image_path('main/carousel_ergonomics.jpg')%>}');"></div> -->
+          </div>
+          <div class="item">
+              <div class="fill" style="background-image: url('{% static 'images/main/carousel_cognitive.png' %}');"></div>
+              <!-- <div class="fill" style="background-image: url('<%= image_path('main/carousel_cognitive.png')%>');"></div> -->
+          </div>
+          <div class="item">
+              <div class="fill" style="background-image: url('{% static 'images/main/carousel_fusion.jpg' %}');"></div>
+              <!-- <div class="fill" style="background-image: url('<%= image_path('main/carousel_fusion.jpg')%>');"></div> -->
+          </div>
+      </div>
+  </header>
+
+
+<div class="lab_info web">
+  <div class="lab_wrapper cognitive">
+    <img src="{% static 'images/main/bci.png' %}" alt="bci" style="width:100%;" data-active="{% static 'images/main/bci_active.gif' %}" data-inactive="{% static 'images/main/bci.png' %}">
+    <!-- <img src="<%= image_path('main/bci.png')%>" alt="bci" style="width:100%;" data-active="<%= image_path('main/bci_active.gif')%>" data-inactive="<%= image_path('main/bci.png')%>"> -->
+  </div>
+  <div class="lab_wrapper cognitive">
+    <img src="{% static 'images/main/color.png' %}" alt="color" style="width:100%;" data-active="{% static 'images/main/color_active.gif' %}" data-inactive="{% static 'images/main/color.png' %}">
+    <!-- <img src="<%= image_path('main/color.png')%>" alt="color" style="width:100%;" data-active="<%= image_path('main/color_active.gif')%>" data-inactive="<%= image_path('main/color.png')%>"> -->
+  </div>
+  <div class="lab_wrapper ergonomics">
+    <img src="{% static 'images/main/ergonomics.png' %}" alt="ergonomics" style="width:100%;" data-active="{% static 'images/main/ergonomics_active.gif' %}" data-inactive="{% static 'images/main/ergonomics.png' %}">
+    <!-- <img src="<%= image_path('main/ergonomics.png')%>" alt="ergonomics" style="width:100%;" data-active="<%= image_path('main/ergonomics_active.gif')%>" data-inactive="<%= image_path('main/ergonomics.png')%>"> -->
+  </div>
+  <div class="lab_wrapper cognitive">
+    <img src="{% static 'images/main/healthcare.png' %}" alt="healthcare" style="width:100%;" data-active="{% static 'images/main/healthcare_active.gif' %}" data-inactive="{% static 'images/main/healthcare.png' %}">    
+    <!-- <img src="<%= image_path('main/healthcare.png')%>" alt="healthcare" style="width:100%;" data-active="<%= image_path('main/healthcare_active.gif')%>" data-inactive="<%= image_path('main/healthcare.png')%>"> -->
+    </div>
+  <div class="lab_wrapper fusion">
+    <img src="{% static 'images/main/interaction.png' %}" alt="interaction" style="width:100%;" data-active="{% static 'images/main/interaction_active.gif' %}" data-inactive="{% static 'images/main/interaction.png' %}">
+    <!-- <img src="<%= image_path('main/interaction.png')%>" alt="interaction" style="width:100%;" data-active="<%= image_path('main/interaction_active.gif')%>" data-inactive="<%= image_path('main/interaction.png')%>"> -->
+  </div>
+  <div class="lab_wrapper ergonomics fusion">
+    <img src="{% static 'images/main/ix.png' %}" alt="ix" style="width:100%;" data-active="{% static 'images/main/ix_active.gif' %}" data-inactive="{% static 'images/main/ix.png' %}">
+    <!-- <img src="<%= image_path('main/ix.png')%>" alt="ix" style="width:100%;" data-active="<%= image_path('main/ix_active.gif')%>" data-inactive="<%= image_path('main/ix.png')%>"> -->
+  </div>
+  <div class="lab_wrapper cognitive">
+    <img src="{% static 'images/main/perception.png' %}" alt="bci" style="width:100%;" data-active="{% static 'images/main/perception_active.gif' %}" data-inactive="{% static 'images/main/perception.png' %}">
+    <!-- <img src="<%= image_path('main/perception.png')%>" alt="perception" style="width:100%;" data-active="<%= image_path('main/perception_active.gif')%>" data-inactive="<%= image_path('main/perception.png')%>"> -->
+  </div>
+</div>
+
+<div class="lab_info mobile">
+  <div class="lab_wrapper cognitive">
+      <img src="{% static 'images/main/bci.png' %}" alt="bci" style="width:100%;" data-active="{% static 'images/main/bci_active.gif' %}" data-inactive="{% static 'images/main/bci.png' %}">
+      <!-- <img src="<%= image_path('main/bci.png')%>" alt="bci" style="width:100%;" data-active="<%= image_path('main/bci_active.gif')%>" data-inactive="<%= image_path('main/bci.png')%>"> -->
+  </div>
+  <div class="lab_wrapper cognitive">
+    <img src="{% static 'images/main/color.png' %}" alt="color" style="width:100%;" data-active="{% static 'images/main/color_active.gif' %}" data-inactive="{% static 'images/main/color.png' %}">
+    <!-- <img src="<%= image_path('main/color.png')%>" alt="color" style="width:100%;" data-active="<%= image_path('main/color_active.gif')%>" data-inactive="<%= image_path('main/color.png')%>"> -->
+  </div>
+  <div class="lab_wrapper ergonomics">
+    <img src="{% static 'images/main/ergonomics.png' %}" alt="ergonomics" style="width:100%;" data-active="{% static 'images/main/ergonomics_active.gif' %}" data-inactive="{% static 'images/main/ergonomics.png' %}">
+    <!-- <img src="<%= image_path('main/ergonomics.png')%>" alt="ergonomics" style="width:100%;" data-active="<%= image_path('main/ergonomics_active.gif')%>" data-inactive="<%= image_path('main/ergonomics.png')%>"> -->
+  </div>
+  <div class="lab_wrapper cognitive">
+    <img src="{% static 'images/main/healthcare.png' %}" alt="healthcare" style="width:100%;" data-active="{% static 'images/main/healthcare_active.gif' %}" data-inactive="{% static 'images/main/healthcare.png' %}">    
+    <!-- <img src="<%= image_path('main/healthcare.png')%>" alt="healthcare" style="width:100%;" data-active="<%= image_path('main/healthcare_active.gif')%>" data-inactive="<%= image_path('main/healthcare.png')%>"> -->
+    </div>
+  <div class="lab_wrapper fusion">
+    <img src="{% static 'images/main/interaction.png' %}" alt="interaction" style="width:100%;" data-active="{% static 'images/main/interaction_active.gif' %}" data-inactive="{% static 'images/main/interaction.png' %}">
+    <!-- <img src="<%= image_path('main/interaction.png')%>" alt="interaction" style="width:100%;" data-active="<%= image_path('main/interaction_active.gif')%>" data-inactive="<%= image_path('main/interaction.png')%>"> -->
+  </div>
+  <div class="lab_wrapper ergonomics fusion">
+    <img src="{% static 'images/main/ix.png' %}" alt="ix" style="width:100%;" data-active="{% static 'images/main/ix_active.gif' %}" data-inactive="{% static 'images/main/ix.png' %}">
+    <!-- <img src="<%= image_path('main/ix.png')%>" alt="ix" style="width:100%;" data-active="<%= image_path('main/ix_active.gif')%>" data-inactive="<%= image_path('main/ix.png')%>"> -->
+  </div>
+  <div class="lab_wrapper cognitive">
+    <img src="{% static 'images/main/perception.png' %}" alt="bci" style="width:100%;" data-active="{% static 'images/main/perception_active.gif' %}" data-inactive="{% static 'images/main/perception.png' %}">
+    <!-- <img src="<%= image_path('main/perception.png')%>" alt="perception" style="width:100%;" data-active="<%= image_path('main/perception_active.gif')%>" data-inactive="<%= image_path('main/perception.png')%>"> -->
+  </div>
+</div>
+
+<script type="text/javascript">
+// after load active function
+    // active function
+function change_active(theme){
+	$('.'+theme).each(function(){
+		var data_active = $(this).find('img').attr('data-active');
+		$(this).find('img').attr('src', data_active);
+	});
+
+	$('.lab_wrapper:not(.'+theme+')').each(function(){
+		var data_inactive = $(this).find('img').attr('data-inactive');
+
+		$(this).find('img').attr('src', data_inactive);
+	});
+}
+
+$(document).on('ready',function(){
+	// first change active for ergonomics
+  change_active('ergonomics');
+
+	$('.carousel').carousel({
+		interval: 4000 //changes the speed
+	});   
+	var temp = 0;
+	var theme_array = ['Biomechanics research to understand human physical capacity and limitation','Brain science research to understand human’s cognitive capacity and limitation','Human-system interaction research'];
+	$('#myCarousel').bind('slide.bs.carousel', function (e) {
+		temp++;
+		var current_theme = theme_array[(temp%3)];
+		// reset textillate text
+		$('#change_theme').remove();
+		var newEl = document.createElement('div');
+		newEl.id = 'change_theme';
+		newEl.innerHTML = current_theme;
+
+		// activate active_image and deactivate inactive_image
+		if(temp%3 == 1){
+			change_active('cognitive');  
+		}else if(temp%3 ==2){
+			change_active('fusion');  
+		}else{
+			change_active('ergonomics');  
+		}
+
+		newEl.setAttribute('style', 'display: inline-block; text-align: center;');
+		$('#chage_first').after($(newEl));
+
+		// bind again new div with textillate func
+		$('#change_theme').textillate({
+			autoStart: true,
+			in : { effect: 'flipInX', delay: 15 },
+			out : {effect: 'flipOutX'},
+			minDisplayTime :50
+		});
+
+		// enable in effect on screen.
+		$('#change_theme').textillate('in');
+	});
+
+	$('#change_theme').textillate({
+		autoStart: true,
+		in : { effect: 'flipInX', delay: 15 },
+		out : {effect: 'flipOutX'},
+		minDisplayTime :50
+	});
+});
+
+</script>
+
+{% endblock content %}

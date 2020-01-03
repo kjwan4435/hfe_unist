@@ -1,0 +1,168 @@
+{% extends 'hfe/en/layouts/application.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Page Content -->
+<div class="container">
+  <br>
+  <div class="row">
+    <div class="col-md-2 col-xs-2"></div>
+    <div class="col-md-8 col-xs-8">
+      <div class="research_title" style="margin-top:50px;">
+        <span style="font-size: 2.1rem;">Research</span>
+        <h2>&middot;</h2>
+        <p style="font-size: 1.5rem;">
+          Department of Human Factors Engineering at UNIST is specialized in human data science and engineering. We study how humans think, behave and interact with products, systems and environments to enhance human functions and improve well-beings. 
+        </p>
+        <p style="font-size: 1.5rem;">
+          "Our research focus areas include:"
+        </p>
+        <p style="font-size: 1.5rem;">
+          Healthcare system development, Neuro-science model development, Wearable interface development, Human-centered product development
+        </p>
+      </div>  
+    </div>
+    <div class="col-md-2 col-xs-2"></div>
+  </div>
+  
+  
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/InteractionsLab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/InteractionsLab.png", class: "lab_image") %>    -->
+      
+    </div>
+    <div class="col-md-7 col-xs-7">
+      <div class="lab_name">Interactions Lab</div>
+      <div class="lab_full_name">Interactions Laboratory</div>
+      <div class="lab_vision">“Design, development and evaluation of wearable, tangible and social interactive computing systems.”</div>
+      <div class="lab_description web">The Interactions Lab at the Ulsan National Institute of Science and Technology focuses on the design, development and evaluation of wearable, tangible and social interactive computing systems. Bringing together design perspectives, computer science skills and psychological methods, the Interactions lab conceives, creates and studies next generation human-computer interfaces.</div>
+      
+      <a class="right read_more" href="http://interactions.unist.ac.kr">read more</a>
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-7 col-xs-7 right">
+      <div class="lab_name">BCI lab</div>
+      <div class="lab_full_name">Brain-Computer Interface Laboratory </div>
+      <div class="lab_vision">“Understanding human behavior with underlying neural mechanisms and developing neuro-technologies for human life”</div>
+      <div class="lab_description web">Brain-Computer Interface laboratory investigates neural codes by measuring and analyzing brain signals and develops neuro-technologies for human life. Our primary researches cover ‘brain-computer interface (BCI)’, ‘neuromarketing’, ‘neuro-biometrics’, ‘tactile brain imaging’, and ‘robotic tactile modeling’.</div>
+      
+      <a class="read_more" href="http://bci.unist.ac.kr">read more</a>
+    </div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/BCILab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/BCILab.png", class: "lab_image") %>    -->
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/ErgoLab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/ErgoLab.png", class: "lab_image") %>    -->
+    </div>
+    <div class="col-md-7 col-xs-7">
+      <div class="lab_name">Ergo lab</div>
+      <div class="lab_full_name">Ergonomics Laboratory</div>
+      <div class="lab_vision">“Develop Human-friendly product and environment through biomechanics research”</div>
+      <div class="lab_description web">Ergonomics laboratory conduct both theoretical and practical research to design human-centered products, systems and environments through human-subject biomechanical experiments and simulations. Our main research topics include ‘clinical biomechanics’, ‘industrial ergonomics’ and ‘ergonomic product design’.</div>
+      
+      <a class="right read_more" href="http://ergolab.unist.ac.kr/">read more</a>
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-7 col-xs-7 right">
+      <div class="lab_name">Healthcare Lab</div>
+      <div class="lab_full_name">Healthcare Research & Engineering Laboratory</div>
+      <div class="lab_vision">“Technology to make the human live healthy life.”</div>
+      <div class="lab_description web">There is a big change in the healthcare field. In a modern society, stress increases the cost of mental health. Chronic diseases closely related to lifestyles such as obesity, diabetes, and hypertension become important. Increased life-expectancy causes problems such as aging and dementia. People need more…</div>
+      
+      <a class="read_more" href="https://sites.google.com/view/unist-healthcare-lab">read more</a>
+    </div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/HealthcareLab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/HealthcareLab.png", class: "lab_image") %>    -->
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/IXLab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/IXLab.png", class: "lab_image") %>    -->
+    </div>
+    <div class="col-md-7 col-xs-7">
+      <div class="lab_name">IX Lab</div>
+      <div class="lab_full_name">Interaction & eXperience Laboratory</div>
+      <div class="lab_vision">“Evaluate and develop more effective and practical product and system based on Human Factors perspectives.”</div>
+      <div class="lab_description web">The research objective of Interaction & eXpereience laboratory(ixlab) is to design better human-system interfaces, and improve various systems by taking into account humans’ physical, cognitive, and affective factors. ixlab people strive to make designs/products/systems better in order to improve user experience…</div>
+      
+      <a class="right read_more" href="http://ixlab.unist.ac.kr">read more</a>
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-7 col-xs-7 right">
+      <div class="lab_name">Perception & Action Lab</div>
+      <div class="lab_full_name">Perception & Action Laboratory</div>
+      <div class="lab_vision">“We aim to understand how we construct our perceived worlds.”</div>
+      <div class="lab_description web">In Perception & Action Lab, we study 1) how the human perceptual system constructs vivid representations of the surrounding world from incomplete and noisy sensory signals, 2) how our sensory-motor system coordinates to generate efficient responses, and 3) how we can apply those knowledge to improve the quality…</div>
+      
+      <a class="read_more" href="http://pal.unist.ac.kr/">read more</a>
+    </div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/PerceptionLab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/PerceptionLab.png", class: "lab_image") %>    -->
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/ColorLab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/ColorLab.png", class: "lab_image") %>    -->
+    </div>
+    <div class="col-md-7 col-xs-7">
+      <div class="lab_name">Color Lab</div>
+      <div class="lab_full_name">Color & Affective Engineering Lab</div>
+      <div class="lab_vision">“Studying about human visual perception toward colors and images.”</div>
+      <div class="lab_description web">The color science is a scientific discipline that deals with “color” we perceive. Main research interests are quantifying the visual perception such as color, texture and gloss, figuring out how those perceptions influence the human emotion (SamSung in Korean), and then applying those knowledge on the…</div>
+      
+      <a class="right read_more" href="http://yskwak.unist.ac.kr">read more</a>
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-7 col-xs-7 right">
+      <div class="lab_name">DNCE lab</div>
+      <div class="lab_full_name">Decision Neuroscience and Cognitive Engineering Laboratory</div>
+      <div class="lab_vision">“We aim to understand the neural and psychological foundations of valuation and decision-making in various social settings”</div>
+      <div class="lab_description web">Decision Neuroscience and Cognitive Engineering laboratory use economic probes of behavior in conjunction with functional neuroimaging tools to characterize mechanisms by which the brain processes both social and non-social information. In addition, we leverage economic decision models of healthy individuals to investigate abnormal decision behaviors among individuals with psychopathology.</div>
+      
+      <a class="read_more" href="http://dnce.unist.ac.kr/">read more</a>
+    </div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/PerceptionLab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/PerceptionLab.png", class: "lab_image") %>    -->
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+</div> <!-- container -->
+
+{% endblock content %}

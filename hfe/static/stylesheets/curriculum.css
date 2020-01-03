@@ -1,0 +1,94 @@
+.curriculum_selector{
+	text-align: center;
+	margin-bottom:150px;
+}
+
+.curriculum_selector .first_selector{
+	width:49%;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.curriculum_selector #selector_line{
+	width:100%; 
+	height:8px;
+	background: linear-gradient(90deg, #cac9c9 50%, #e8e8e8 50%);
+	border-radius:10px;
+	margin:auto;
+	margin-top:15px;
+	margin-bottom:5px;
+}
+
+.curriculum_selector .second_selector{
+	display: inline-block;
+	font-size:15px;
+	cursor: pointer;
+}
+
+.curriculum_selector .second_selector.sophomore{
+	width:21%;
+}
+
+.curriculum_selector .second_selector.junior{
+	width:15%;	
+}
+
+.curriculum_selector .second_selector.senior{
+	width:15%;		
+}
+
+.curriculum_selector .third_selector{
+	display: inline-block;
+	font-size:15px;
+	cursor: pointer;
+}
+.curriculum_selector .third_selector.bar{
+	width:3%;
+}
+
+.curriculum_selector .third_selector.required{
+	width:18%;
+}
+
+.curriculum_selector .third_selector.elective{
+	width:18%;
+}
+
+.curriculum_selector ul{
+	list-style: none;
+}
+
+.curriculum_selector ul li{
+	float: left;
+	margin: 3px 0;
+}
+
+.row.curriculum{
+	text-align: center;
+	margin-bottom: 30px;
+	color:#B2B3B4;
+}
+
+.row.curriculum.graduate{
+	color:#000000;
+}
+
+@media screen and (max-width:768px) {
+	.selector_col_mobile{
+		width:80% !important;
+		margin-left:10%;
+	}
+
+	.curriculum_selector{
+		margin-top:50px;
+	}
+}
+
+
+.row.curriculum.active{
+	color:#000000;
+}
+
+.row.curriculum.inactive{
+	color:#B2B3B4;
+}

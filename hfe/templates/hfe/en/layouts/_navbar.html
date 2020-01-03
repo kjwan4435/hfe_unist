@@ -1,0 +1,106 @@
+ <!-- Navigation -->
+  <!-- <% if action_name != 'main' %>
+    <nav class="navbar" id="slide-nav" style="background: url(<%= asset_path 'navbar_deco/banner.png' %>) no-repeat center center; border-width: 0px; height: auto; background-size: cover;">
+  <% else %> -->
+    <nav class="navbar navbar-inverse" id="slide-nav" style="background: white; border-width: 0px; height: 110px;">
+  <!-- <% end %> -->
+  <!-- 여기 참고 https://stackoverflow.com/questions/2882490/how-to-get-the-current-url-within-a-django-template -->
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header" style="height: 80px;">
+      <a class="navbar-toggle"> 
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+       </a>
+      
+      <img src="{% static 'images/logo.png' %}" alt="" style="color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;" id="logo">
+      <!-- <%= link_to image_tag('logo.png'), root_path, style:"color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;", id:"logo" %>  -->
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right" id="nav_ul" style="margin-top: 25px;">
+        <li>
+          <a href="{% url 'en_about' %}">About</a>
+          <!-- <%= link_to (t 'navbar.menu1'), home_about_path, style: "" %>  -->
+        </li>
+        <li>
+          <a href="{% url 'en_research' %}">Research</a>
+          <!-- <%= link_to (t 'navbar.menu2'), home_research_path, style: "" %>  -->
+        </li>
+        <li>
+          <a href="{% url 'en_curriculum' %}">Curriculum</a>
+          <!-- <%= link_to (t 'navbar.menu3'), home_curriculum_path,  method: :get, style: "" %>  -->
+        </li>
+        <!-- <li>
+          <a href="{% url 'news' %}">News</a>
+          <%= link_to (t 'navbar.menu4'), posts_path,  style: "" %> 
+        </li> -->
+        <li style="margin-right: 30px;">
+          <a href="{% url 'en_faculty' %}">Faculty</a>
+          <!-- <%= link_to (t 'navbar.menu5'), home_faculty_path, style: "" %>  -->
+        </li>
+        <li>
+          <div class="language_selector">
+            <!-- <a href="/ko"><%= image_tag((t 'navbar.language_selector_img_path'), style: "width:20%;") %></a> -->
+            <a href="/ko"><img src="{% static 'images/navbar_deco/language_selector_en.png' %}" alt="" style="width:20%;"></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div id="slidemenu">
+      <div id="slide_logo">
+        <img src="{% static 'images/logo_white.png' %}" alt="" style="width:50%; margin-top:45px; margin-left:25%;">
+        <!-- <%= image_tag("logo_white.png", style:"width:50%; margin-top:45px; margin-left:25%;") %>  -->
+      </div>
+      <div id="slide_lang">
+        <div class="lang_item">
+          <img src="{% static 'images/person.png' %}" alt="" style="width: 18%;">
+          <!-- <%= image_tag("person.png", style: "width: 18%;") %> -->
+        </div>
+        <div class="lang_item"><a href="/ko">KOR</a></div>
+        <div class="lang_item"><a href="/en">ENG</a></div>
+      </div>
+      <ul class="nav navbar-nav">
+       <li>
+         <a href="{% url 'en_about' %}">About</a>
+          <!-- <%= link_to (t 'navbar.menu1'), home_about_path, style: "" %>  -->
+        </li>
+        <li>
+          <a href="{% url 'en_research' %}">Research</a>
+          <!-- <%= link_to (t 'navbar.menu2'), home_research_path, style: "" %>  -->
+        </li>
+        <li>
+          <a href="{% url 'en_curriculum' %}">Curriculum</a>
+          <!-- <%= link_to (t 'navbar.menu3'), home_curriculum_path,  method: :get, style: "" %>  -->
+        </li>
+        <!-- <li>
+          <a href="{% url 'about' %}">About</a>
+          <%= link_to (t 'navbar.menu4'), posts_path,  style: "" %> 
+        </li> -->
+        <li style="margin-right: 30px;">
+          <a href="{% url 'en_faculty' %}">Faculty</a>
+          <!-- <%= link_to (t 'navbar.menu5'), home_faculty_path, style: "" %>  -->
+        </li>
+      </ul>          
+     </div>
+
+     <!-- TODO -->
+      <!-- <% if action_name != 'main' %>
+      <div class="navbar_deco_wrapper web">
+      <div class="row">
+        <div class="col-md-9 col-xs-9">
+          <div style="margin-left:7%; margin-top:1%;">
+            <span style="font-size:2.2rem; color:#7A7778;">“People-friendly Design through Science and Engineering”</span> <br/>
+            <span style="font-size:1.5rem; color:#7A7778;">Department of Human Factors Engineering</span>
+          </div>
+        </div>
+      </div>
+      </div>
+      <% end %> -->
+
+    <!-- /.navbar-collapse -->
+  <!-- </div> -->
+  <!-- /.container -->
+</nav>

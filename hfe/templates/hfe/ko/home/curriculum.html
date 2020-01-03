@@ -1,0 +1,854 @@
+{% extends 'hfe/ko/layouts/application.html' %}
+
+{% block content %}
+<div class="container">
+  <div class="row curriculum_selector" style="margin-top:50px;">
+  	<br>
+     <br>
+    <div class="col-md-4 col-xs-4"></div>
+    <div class="col-md-4 col-xs-4 selector_col_mobile">
+    	<div class="first_selector undergraduate">학부</div>
+    	<div class="first_selector graduate">대학원</div>
+    	<div id="selector_line"></div>
+    	<div class="second_selector sophomore">2학년</div>
+    	<div class="second_selector junior">3학년</div>
+    	<div class="second_selector senior">4학년</div>
+			<div class="third_selector bar">|</div>
+    	<div class="third_selector required">필수</div>
+    	<div class="third_selector elective">선택</div>
+    </div>
+    <div class="col-md-4 col-xs-4"></div>
+  </div>
+  
+  <div class="row curriculum undergraduate sophomore required">
+		<div class="col-md-1 col-xs-3">
+			HFE202
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE202_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.first_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate sophomore required">
+		<div class="col-md-1 col-xs-3">
+			HFE205
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE205_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+  <div class="row curriculum undergraduate sophomore required">
+		<div class="col-md-1 col-xs-3">
+			HFE206
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE206_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate junior required">
+		<div class="col-md-1 col-xs-3">
+			HFE301
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE301_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.first_semester' %>
+		</div>
+  </div>
+
+  <div class="row curriculum undergraduate junior required">
+		<div class="col-md-1 col-xs-3">
+			HFE306
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE306_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate senior required">
+		<div class="col-md-1 col-xs-3">
+			HFE401
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE401_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.first_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate sophomore required">
+		<div class="col-md-1 col-xs-3">
+			IID201
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.IID201_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.first_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate sophomore required">
+		<div class="col-md-1 col-xs-3">
+			SDC202
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.SDC202_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate junior elective">
+		<div class="col-md-1 col-xs-3">
+			HFE303
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE303_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.first_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate junior elective">
+		<div class="col-md-1 col-xs-3">
+			HFE304
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE304_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.first_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate junior elective">
+		<div class="col-md-1 col-xs-3">
+			HFE305
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE305_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.first_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate junior elective">
+		<div class="col-md-1 col-xs-3">
+			HFE308
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE308_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate junior elective">
+		<div class="col-md-1 col-xs-3">
+			HFE309
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE309_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate junior elective">
+		<div class="col-md-1 col-xs-3">
+			HFE310
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE310_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.first_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate junior elective">
+		<div class="col-md-1 col-xs-3">
+			HFE311
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE311_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate senior elective">
+		<div class="col-md-1 col-xs-3">
+			HFE404
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE404_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.first_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate senior elective">
+		<div class="col-md-1 col-xs-3">
+			HFE405
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE405_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate senior elective">
+		<div class="col-md-1 col-xs-3">
+			HFE406
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE406_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+  <div class="row curriculum undergraduate senior elective">
+		<div class="col-md-1 col-xs-3">
+			HFE407
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE407_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+  <div class="row curriculum undergraduate senior elective">
+		<div class="col-md-1 col-xs-3">
+			HFE410
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE410_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.all_semester' %>
+		</div>
+  </div>
+
+	<div class="row curriculum undergraduate senior elective">
+		<div class="col-md-1 col-xs-3">
+			HFE420
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE420_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.all_semester' %>
+		</div>
+  </div>
+
+  <div class="row curriculum undergraduate sophomore elective">
+		<div class="col-md-1 col-xs-3">
+			IID202
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.IID202_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+  <div class="row curriculum undergraduate sophomore elective">
+		<div class="col-md-1 col-xs-3">
+			IID206
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.IID206_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.first_semester' %>
+		</div>
+  </div>
+
+  <div class="row curriculum undergraduate sophomore elective">
+		<div class="col-md-1 col-xs-3">
+			IID231
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.IID231_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+  <div class="row curriculum undergraduate sophomore elective">
+		<div class="col-md-1 col-xs-3">
+			IID232
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.IID232_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+  <div class="row curriculum undergraduate junior elective">
+		<div class="col-md-1 col-xs-3">
+			IID304
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.IID304_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+  <div class="row curriculum undergraduate junior elective">
+		<div class="col-md-1 col-xs-3">
+			IID341
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.IID341_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.first_semester' %>
+		</div>
+  </div>
+
+  <div class="row curriculum undergraduate junior elective">
+		<div class="col-md-1 col-xs-3">
+			SDC304
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.SDC304_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+  <div class="row curriculum undergraduate senior elective">
+		<div class="col-md-1 col-xs-3">
+			CSE463
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.CSE463_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+  <div class="row curriculum undergraduate junior elective">
+		<div class="col-md-1 col-xs-3">
+			MGT363
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.MGT363_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+			<%= t 'curriculum.second_semester' %>
+		</div>
+  </div>
+
+	<!-- 대학원 -->
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE504
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE504_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE590
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE590_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE690
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE690_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+  
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE890
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE890_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE540
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE540_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE542
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE542_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE543
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE543_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE550
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE550_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE558
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE558_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE740
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE740_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+  
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE741
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE741_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE742
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE742_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE743
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE743_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+	<div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE745
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE745_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE746
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE746_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE747
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE747_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+	<div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE748
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE748_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+	<div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE560
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE560_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE561
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE561_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE562
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE562_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE701
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE701_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE761
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE761_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE762
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE762_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE790
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE790_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE552
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE552_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE910
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE910_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE911
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE911_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div class="row curriculum graduate">
+		<div class="col-md-1 col-xs-3">
+			HFE912
+		</div>
+		<div class="col-md-10 col-xs-6">
+			<%= t 'curriculum.HFE912_title' %>
+		</div>
+		<div class="col-md-1 col-xs-3">
+		</div>
+  </div>
+
+  <div style="margin-bottom:100px;">
+  </div>
+</div>
+
+<script type="text/javascript">
+	var first_selector = 0;
+	var second_selector = 0;
+	var third_selector = 0;
+	$(document).on('ready page:load', function(){
+		update_css();
+		// first_selector part
+		$('.first_selector.undergraduate').on('click', function(){
+			first_selector = 0;
+			// second_selector = 0;
+			// third_selector = 0;
+			update_css();
+		});
+
+		$('.first_selector.graduate').on('click', function(){
+			first_selector = 1;
+			// second_selector = -1;
+			// third_selector = -1;
+			update_css();
+		});
+
+		// second_selector part
+		$('.second_selector.sophomore').on('click', function(){
+			if(first_selector != 1){
+				second_selector = 0;
+			}
+			update_css();
+		});
+		$('.second_selector.junior').on('click', function(){
+			if(first_selector != 1){
+				second_selector = 1;
+			}
+			update_css();
+		});
+		$('.second_selector.senior').on('click', function(){
+			if(first_selector != 1){
+				second_selector = 2;
+			}
+			update_css();
+		});	
+
+		// third_selector part
+		$('.third_selector.required').on('click', function(){
+			if(first_selector != 1){
+				third_selector = 0;
+			}
+			update_css();
+		});
+		$('.third_selector.elective').on('click', function(){
+			if(first_selector != 1){
+				third_selector = 1;
+			}
+			update_css();
+		});
+	});
+
+	// TODO : 커리큘럼 자동 css 바꿔주기
+
+	function update_css(){
+		if(first_selector==0){
+			$('.row.curriculum').hide();
+			$('.row.curriculum.undergraduate').show();
+			$('.first_selector.undergraduate').css('color', '#000000');
+			$('.first_selector.graduate').css('color', '#B2B3B4');
+			$('#selector_line').css('background', 'linear-gradient(90deg, #cac9c9 50%, #e8e8e8 50%)');
+
+			// sophomore이고 required인 과목
+			if(second_selector==0 && third_selector==0){
+				$('.second_selector.sophomore').css('color','#000000');
+				$('.second_selector.junior').css('color','#B2B3B4');
+				$('.second_selector.senior').css('color','#B2B3B4');
+				
+				$('.row.curriculum').removeClass('active');
+				$('.row.curriculum').removeClass('inactive');
+				$('.row.curriculum.sophomore.required').addClass('active');
+			}
+			// sophomore이고 elective인 과목
+			else if(second_selector==0 && third_selector==1){
+				$('.second_selector.sophomore').css('color','#000000');
+				$('.second_selector.junior').css('color','#B2B3B4');
+				$('.second_selector.senior').css('color','#B2B3B4');
+				
+				$('.row.curriculum').removeClass('active');
+				$('.row.curriculum').removeClass('inactive');
+				$('.row.curriculum.sophomore.elective').addClass('active');
+			}
+			// junior이고 required인 과목
+			else if(second_selector==1 && third_selector==0){
+				$('.second_selector.sophomore').css('color','#B2B3B4');
+				$('.second_selector.junior').css('color','#000000');
+				$('.second_selector.senior').css('color','#B2B3B4');
+
+				$('.row.curriculum').removeClass('active');
+				$('.row.curriculum').removeClass('inactive');
+				$('.row.curriculum.junior.required').addClass('active');
+			}
+			// junior이고 elective인 과목
+			else if(second_selector==1 && third_selector==1){
+				$('.second_selector.sophomore').css('color','#B2B3B4');
+				$('.second_selector.junior').css('color','#000000');
+				$('.second_selector.senior').css('color','#B2B3B4');
+
+				$('.row.curriculum').removeClass('active');
+				$('.row.curriculum').removeClass('inactive');
+				$('.row.curriculum.junior.elective').addClass('active');
+			}
+			// senior이고 required인 과목
+			else if(second_selector==2 && third_selector==0){
+				$('.second_selector.sophomore').css('color','#B2B3B4');
+				$('.second_selector.junior').css('color','#B2B3B4');
+				$('.second_selector.senior').css('color','#000000');
+
+				// senior 과목만 표시
+				$('.row.curriculum').removeClass('active');
+				$('.row.curriculum').removeClass('inactive');
+				$('.row.curriculum.senior.required').addClass('active');
+			}
+			// senior이고 elective인 과목
+			else if(second_selector==2 && third_selector==1){
+				$('.second_selector.sophomore').css('color','#B2B3B4');
+				$('.second_selector.junior').css('color','#B2B3B4');
+				$('.second_selector.senior').css('color','#000000');
+
+				// senior 과목만 표시
+				$('.row.curriculum').removeClass('active');
+				$('.row.curriculum').removeClass('inactive');
+				$('.row.curriculum.senior.elective').addClass('active');
+			}
+
+			// undergraduate 일 경우 필수 활성화
+			if(third_selector==0){
+				$('.third_selector.required').css('color','#000000');
+				$('.third_selector.elective').css('color','#B2B3B4');
+			}else{
+				$('.third_selector.required').css('color','#B2B3B4');
+				$('.third_selector.elective').css('color','#000000');
+			}
+		}
+		else{
+			$('.first_selector.graduate').css('color', '#000000');
+			$('.first_selector.undergraduate').css('color', '#B2B3B4');
+			$('#selector_line').css('background', 'linear-gradient(90deg, #e8e8e8 50%, #cac9c9 50%)');
+
+			// graduate 일 경우 학년 셀렉터 비활성화
+			$('.second_selector.sophomore').css('color','#B2B3B4');
+			$('.second_selector.junior').css('color','#B2B3B4');
+			$('.second_selector.senior').css('color','#B2B3B4');
+			
+			// graduate 일 경우 필수 셀렉터 비활성화
+			$('.third_selector.required').css('color','#B2B3B4');
+			$('.third_selector.elective').css('color','#B2B3B4');
+
+			$('.row.curriculum').hide();
+			$('.row.curriculum.graduate').show();
+		}
+	}
+</script>
+
+{% endblock content %}

@@ -1,0 +1,434 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  main:
+    title: "“People-friendly Design through Science and Engineering”"
+    subtitle: "School of Design and Human Engineering, UNIST"
+  navbar:
+    menu1: About
+    menu2: Research
+    menu3: Curriculum
+    menu4: News
+    menu5: Faculty
+    language_selector_img_path: navbar_deco/language_selector_en.png
+    language_selector_link: /ko
+  footer:
+    content1: Department of Human Factors Engineering / School of Design and Human Engineering 
+    content2: Ulsan National Institute of Science and Technology
+    contact1: Tel
+    contact2: Fax
+  about:
+    content1: Human Factors Engineering is “the scientific discipline concerned with the understanding of interactions among humans and other elements of a system, and the profession that applies theory, principles, data and methods to design in order to optimize human well-being and overall system performance.” (International Ergonomics Association)
+    content2: The field is closely related with psychology, physiology, computer science, industrial design, biomechanics and anthropometry.
+    content3: Human Factors Engineering track of UNIST aims to create a better tomorrow by designing products, systems and processes for people through science and engineering.
+    unit_person: "unit: person"
+  research:
+    content1: Department of Human Factors Engineering at UNIST is specialized in human data science and engineering. We study how humans think, behave and interact with products, systems and environments to enhance human functions and improve well-beings. 
+    content2: "Our research focus areas include:"
+    content3: Healthcare system development, Neuro-science model development, Wearable interface development, Human-centered product development
+    egro:
+      lab_name: Ergo lab
+      lab_full_name: Ergonomics Laboratory
+      lab_vision: “Develop Human-friendly product and environment through biomechanics research”
+      lab_description: Ergonomics laboratory conduct both theoretical and practical research to design human-centered products, systems and environments through human-subject biomechanical experiments and simulations. Our main research topics include ‘clinical biomechanics’, ‘industrial ergonomics’ and ‘ergonomic product design’.
+    bci:
+      lab_name: BCI lab
+      lab_full_name: Brain-Computer Interface Laboratory 
+      lab_vision: “Understanding human behavior with underlying neural mechanisms and developing neuro-technologies for human life”
+      lab_description: Brain-Computer Interface laboratory investigates neural codes by measuring and analyzing brain signals and develops neuro-technologies for human life. Our primary researches cover ‘brain-computer interface (BCI)’, ‘neuromarketing’, ‘neuro-biometrics’, ‘tactile brain imaging’, and ‘robotic tactile modeling’.
+    interactions:
+      lab_name: Interactions Lab
+      lab_full_name: Interactions Laboratory
+      lab_vision: “Design, development and evaluation of wearable, tangible and social interactive computing systems.”
+      lab_description: The Interactions Lab at the Ulsan National Institute of Science and Technology focuses on the design, development and evaluation of wearable, tangible and social interactive computing systems. Bringing together design perspectives, computer science skills and psychological methods, the Interactions lab conceives, creates and studies next generation human-computer interfaces.
+    healthcare:
+      lab_name: Healthcare Lab
+      lab_full_name: Healthcare Research & Engineering Laboratory
+      lab_vision: “Technology to make the human live healthy life.”
+      lab_description: There is a big change in the healthcare field. In a modern society, stress increases the cost of mental health. Chronic diseases closely related to lifestyles such as obesity, diabetes, and hypertension become important. Increased life-expectancy causes problems such as aging and dementia. People need more…
+    ix:
+      lab_name: IX Lab
+      lab_full_name: Interaction & eXperience Laboratory
+      lab_vision: “Evaluate and develop more effective and practical product and system based on Human Factors perspectives.”
+      lab_description: The research objective of Interaction & eXpereience laboratory(ixlab) is to design better human-system interfaces, and improve various systems by taking into account humans’ physical, cognitive, and affective factors. ixlab people strive to make designs/products/systems better in order to improve user experience…
+    perception:
+      lab_name: Perception & Action Lab
+      lab_full_name: Perception & Action Laboratory
+      lab_vision: “We aim to understand how we construct our perceived worlds.”
+      lab_description: In Perception & Action Lab, we study 1) how the human perceptual system constructs vivid representations of the surrounding world from incomplete and noisy sensory signals, 2) how our sensory-motor system coordinates to generate efficient responses, and 3) how we can apply those knowledge to improve the quality…
+    color:
+      lab_name: Color Lab
+      lab_full_name: Color & Affective Engineering Lab
+      lab_vision: “Studying about human visual perception toward colors and images.”
+      lab_description: The color science is a scientific discipline that deals with “color” we perceive. Main research interests are quantifying the visual perception such as color, texture and gloss, figuring out how those perceptions influence the human emotion (SamSung in Korean), and then applying those knowledge on the…
+    dnce:
+      lab_name: DNCE lab
+      lab_full_name: Decision Neuroscience and Cognitive Engineering Laboratory
+      lab_vision: “We aim to understand the neural and psychological foundations of valuation and decision-making in various social settings”
+      lab_description: Decision Neuroscience and Cognitive Engineering laboratory use economic probes of behavior in conjunction with functional neuroimaging tools to characterize mechanisms by which the brain processes both social and non-social information. In addition, we leverage economic decision models of healthy individuals to investigate abnormal decision behaviors among individuals with psychopathology.
+  curriculum:
+    undergraduate: undergraduate
+    graduate: graduate
+    sophomore: sophomore
+    junior: junior
+    senior: senior
+    required: Required
+    elective: Elective
+    HFE202_title: Human Factors Fundamentals
+    HFE205_title: Physical Ergonomics
+    HFE206_title: Cognitive Ergonomics
+    HFE301_title: Experimental Design
+    HFE306_title: Usability Engineering
+    HFE401_title: Capstone Design
+    IID201_title: Design Elements and Principles
+    SDC202_title: Computational Tools for Engineers
+    HFE303_title: Color Science & Engineering
+    HFE304_title: High Touch Design
+    HFE305_title: Physical Computing
+    HFE308_title: Sensation and Perception
+    HFE309_title: Work Measurement Methods
+    HFE310_title: Brain and Human Behavior I - Common to Humans
+    HFE311_title: Brain and Human Behavior II - Difference between Humans
+    HFE404_title: Brain-Computer Interface Design
+    HFE405_title: Safety Engineering
+    HFE406_title: Affective Engineering
+    HFE407_title: Research Practicum in Human Factors
+    HFE410_title: Special Topics in HFE Ⅰ
+    HFE420_title: Special Topics in HFE II
+    IID202_title: Product Design Fundamental
+    IID206_title: Design Visualization
+    IID231_title: Design Knowledge and Skills
+    IID232_title: 3D CAD
+    IID304_title: Interactive Technology
+    IID341_title: Fundamental Electrical-Electronic Practice
+    SDC304_title: Manufacturing System Design & Simulation
+    CSE463_title: Machine Learning
+    MGT363_title: Operations Research
+    HFE504_title: Master Graduation Project
+    HFE590_title: The Seminars
+    HFE690_title: Master's Research
+    HFE890_title: Doctoral Research
+    HFE540_title: Human Factors Research Design
+    HFE542_title: Advanced Multivariate Methods & Data Mining
+    HFE543_title: Human Performance in Transportation System
+    HFE550_title: Occupational Biomechanics
+    HFE558_title: Human Information Processing
+    HFE740_title: Special Topics in HFE 1
+    HFE741_title: Special Topics in HFE 2
+    HFE742_title: Special Topics in HFE 3
+    HFE743_title: Special Topics in HFE 4
+    HFE745_title: Techniques and Methodologies in Ergonomics 1
+    HFE746_title: Techniques and Methodologies in Ergonomics 2
+    HFE747_title: Techniques and Methodologies in Ergonomics 3
+    HFE748_title: Techniques and Methodologies in Ergonomics 4
+    HFE560_title: Color Science
+    HFE561_title: Psychophysics
+    HFE562_title: Cross-media color reproduction
+    HFE701_title: Advanced Topics in High Touch
+    HFE761_title: Human Vision
+    HFE762_title: Advanced Color Science
+    HFE790_title: Research Practicum in Human Factors
+    HFE552_title: Human-Computer Interaction
+    HFE910_title: Interaction Deign
+    HFE911_title: Human-Centered design
+    HFE912_title: Contextual design
+    first_semester: 1st
+    second_semester: 2nd
+    all_semester: 1st, 2nd
+  faculty:
+    mwlee:
+      name: Myunwoo Lee
+      position: Chaired Professor
+      research_area1: Human Factors Engineering
+      research_area2: High Touch
+      biography1: Human Factors Engineering, Ph.D.
+      biography2: from University of Michigan, 1979 
+    gshin:
+      name: Gwanseob Shin
+      position: Associate Professor
+      research_area1: Physical ergonomics
+      research_area2: Biomechanics
+      biography1: Industrial Engineering, Ph.D.
+      biography2: from North Carolina State University, 2005
+    ghkyung:
+      name: Gyouhyung Kyung
+      position: Associate Professor
+      research_area1: Human-Machine Interface
+      research_area2: Neuroergonomics
+      research_area3: Visual Ergonomics
+      research_area4: Vehicle Ergonomics
+      research_area5: Digital Human Modeling
+      research_area6: User-Centered Design
+      biography1: Industrial and Systems Engineering, Ph.D.
+      biography2: from Virginia Tech, Virginia, U.S.A., 2008
+    ian:
+      name: Ian Oakley
+      position: Associate Professor
+      research_area1: Human-computer Interaction
+      biography1: Computer Science, Ph.D.
+      biography2: from University of Glasgow, 2003
+    spkim:
+      name: Sung-Phil Kim
+      position: Associate Professor
+      research_area1: Neuroengineering
+      biography1: Electronics and Computer Engineering, Ph.D.
+      biography2: from University of Florida, 2005
+    dooyoung:
+      name: Dooyoung Jung
+      position: Assistant Professor, UNIST Healthcare Center Director
+      research_area1: Psychiatry
+      research_area2: Behavioral Sciences
+      biography1: Psychiatry and Behavioral Sciences, Ph.D.
+      biography2: from SNU College of Medicine
+    dichung:
+      name: Dongil Chung
+      position: Assistant Professor
+      research_area1: Decision Neuroscience
+      research_area2: Neuroimaging & Computational modeling
+      biography1: Bio and Brain Engineering, Ph.D.
+      biography2: from KAIST, 2011
+      phone: TBD
+      email: TBD
+    yskwak:
+      name: YoungShin Kwak
+      position: Associate Professor
+      research_area1: Color engineering
+      research_area2: Affective engineering
+      biography1: Colour & Imaging Institute, Ph.D.
+      biography2: from University of Derby, 2003
+    oskwon:
+      name: OhSang Kwon
+      position: Assistant Professor
+      research_area1: Human Perception & Action
+      biography1: Mathematical Psychology, Ph.D.
+      biography2: from Purdue University
+  activerecord:
+    errors:
+      messages:
+        record_invalid: "Validation failed: %{errors}"
+        restrict_dependent_destroy:
+          has_one: "Cannot delete record because a dependent %{record} exists"
+          has_many: "Cannot delete record because dependent %{record} exist"
+  date:
+    abbr_day_names:
+    - Sun
+    - Mon
+    - Tue
+    - Wed
+    - Thu
+    - Fri
+    - Sat
+    abbr_month_names:
+    -
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+    day_names:
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    formats:
+      default: "%Y-%m-%d"
+      long: "%B %d, %Y"
+      short: "%b %d"
+    month_names:
+    -
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+    order:
+    - :year
+    - :month
+    - :day
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: about 1 hour
+        other: about %{count} hours
+      about_x_months:
+        one: about 1 month
+        other: about %{count} months
+      about_x_years:
+        one: about 1 year
+        other: about %{count} years
+      almost_x_years:
+        one: almost 1 year
+        other: almost %{count} years
+      half_a_minute: half a minute
+      less_than_x_minutes:
+        one: less than a minute
+        other: less than %{count} minutes
+      less_than_x_seconds:
+        one: less than 1 second
+        other: less than %{count} seconds
+      over_x_years:
+        one: over 1 year
+        other: over %{count} years
+      x_days:
+        one: 1 day
+        other: "%{count} days"
+      x_minutes:
+        one: 1 minute
+        other: "%{count} minutes"
+      x_months:
+        one: 1 month
+        other: "%{count} months"
+      x_years:
+        one: 1 year
+        other: "%{count} years"
+      x_seconds:
+        one: 1 second
+        other: "%{count} seconds"
+    prompts:
+      day: Day
+      hour: Hour
+      minute: Minute
+      month: Month
+      second: Seconds
+      year: Year
+  errors:
+    format: "%{attribute} %{message}"
+    messages:
+      accepted: must be accepted
+      blank: can't be blank
+      present: must be blank
+      confirmation: doesn't match %{attribute}
+      empty: can't be empty
+      equal_to: must be equal to %{count}
+      even: must be even
+      exclusion: is reserved
+      greater_than: must be greater than %{count}
+      greater_than_or_equal_to: must be greater than or equal to %{count}
+      inclusion: is not included in the list
+      invalid: is invalid
+      less_than: must be less than %{count}
+      less_than_or_equal_to: must be less than or equal to %{count}
+      model_invalid: "Validation failed: %{errors}"
+      not_a_number: is not a number
+      not_an_integer: must be an integer
+      odd: must be odd
+      required: must exist
+      taken: has already been taken
+      too_long:
+        one: is too long (maximum is 1 character)
+        other: is too long (maximum is %{count} characters)
+      too_short:
+        one: is too short (minimum is 1 character)
+        other: is too short (minimum is %{count} characters)
+      wrong_length:
+        one: is the wrong length (should be 1 character)
+        other: is the wrong length (should be %{count} characters)
+      other_than: must be other than %{count}
+    template:
+      body: 'There were problems with the following fields:'
+      header:
+        one: 1 error prohibited this %{model} from being saved
+        other: "%{count} errors prohibited this %{model} from being saved"
+  helpers:
+    select:
+      prompt: Please select
+    submit:
+      create: Create %{model}
+      submit: Save %{model}
+      update: Update %{model}
+  number:
+    currency:
+      format:
+        delimiter: ","
+        format: "%u%n"
+        precision: 2
+        separator: "."
+        significant: false
+        strip_insignificant_zeros: false
+        unit: "$"
+    format:
+      delimiter: ","
+      precision: 3
+      separator: "."
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion: Billion
+          million: Million
+          quadrillion: Quadrillion
+          thousand: Thousand
+          trillion: Trillion
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+        format: "%n%"
+    precision:
+      format:
+        delimiter: ''
+  support:
+    array:
+      last_word_connector: ", and "
+      two_words_connector: " and "
+      words_connector: ", "
+  time:
+    am: am
+    formats:
+      default: "%a, %d %b %Y %H:%M:%S %z"
+      long: "%B %d, %Y %H:%M"
+      short: "%d %b %H:%M"
+    pm: pm

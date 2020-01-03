@@ -1,0 +1,92 @@
+*{
+	margin:0;
+}
+
+.about_wrappers{
+	margin-bottom:130px;
+}
+
+
+@media screen and (max-width:768px) {
+	.about_wrappers{
+		margin-bottom:50px;
+	}
+
+	.row{
+		margin-bottom:50px;
+	}
+}
+
+.area_row{
+	text-align:left !important;
+}
+
+.area_row a{
+	margin-top:15px;
+	text-align:left !important;
+}
+
+.scale-item {
+	display: inline-block; 
+	text-align: center;
+	width:23%;
+	font-size: 13px;
+	color: dimgrey;
+}
+
+.scale-bar {
+	display: inline-block; 
+	text-align: center;
+	font-size: 13px;
+	background: dimgrey;
+	color: white;
+}
+
+#job-icon-container {
+	margin-top: 50px;
+	margin-left: 15%;
+}
+
+@media screen and (max-width:768px) {
+	#job-icon-container {
+		margin-left: 0%;
+	}
+}
+
+#job-item-container {
+	margin-top: 10px;
+	margin-left: 20%;
+}
+
+@media screen and (max-width:768px) {
+	#job-item-container {
+		margin-left: 5%;
+	}
+}
+
+.job-item {
+	display: inline-block; 
+	width:24%;
+	font-size: 13px;
+	color: dimgrey;
+}
+
+.job-item2 {
+	display: inline-block; 
+	width:32%;
+	font-size: 13px;
+	color: dimgrey;
+}
+
+@media screen and (max-width:768px) {
+	.job-item {
+		display: inline-block;
+		width:32%;
+		font-size: 13px;
+		color: dimgrey;
+	}
+}
+
+.what-is-list {
+	padding-bottom: 70px;
+}

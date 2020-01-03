@@ -1,0 +1,168 @@
+{% extends 'hfe/ko/layouts/application.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Page Content -->
+<div class="container">
+  <br>
+  <div class="row">
+    <div class="col-md-2 col-xs-2"></div>
+    <div class="col-md-8 col-xs-8">
+      <div class="research_title" style="margin-top:50px;">
+        <span style="font-size: 2.1rem;">Research</span>
+        <h2>&middot;</h2>
+        <p style="font-size: 1.5rem;">
+          유니스트 인간공학과는 인간의 인지 및 신체 특성과 반응에 대한 다양한 데이터를 과학적으로 분석하고 이를 공학적으로 활용하는 Human Data Science and Engineering 연구를 수행합니다.
+        </p>
+        <p style="font-size: 1.5rem;">
+          인간이 제품, 로봇, 자동차 등의 기계와 컴퓨터를 사용할 때 시각, 청각, 촉각등의 정보를 어떻게 받아들이고 해석하는지, 그리고 어떤 움직임과 힘을 받고 전달하는지 등을 실험을 통해 분석합니다.  
+        </p>
+        <p style="font-size: 1.5rem;">
+          분석한 데이터를 이용하여 최적의 의료-재활기기, 착용형 인터페이스, 뇌-컴퓨터 인터페이스, 인간편의 제품 개발등의 분야에 적용합니다.
+        </p>
+      </div>  
+    </div>
+    <div class="col-md-2 col-xs-2"></div>
+  </div>
+  
+  
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/InteractionsLab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/InteractionsLab.png", class: "lab_image") %>    -->
+      
+    </div>
+    <div class="col-md-7 col-xs-7">
+      <div class="lab_name">Interactions Lab</div>
+      <div class="lab_full_name">인터랙션 연구실</div>
+      <div class="lab_vision">“웨어러블, 실체적 인터랙션, 소셜 인터랙티브 컴퓨팅 시스템 등을 디자인, 개발 및 평가”</div>
+      <div class="lab_description web">인터랙션 연구실에서는 웨어러블, 실체적 인터랙션, 소셜 인터랙티브 컴퓨팅 시스템 등을 디자인, 개발 및 평가합니다. 디자인 관점, 컴퓨터 과학 기술 및 심리학적 방법을 결합하여 차세대 인간-컴퓨터 인터페이스를 고안해서 제작하여 연구합니다.</div>
+      
+      <a class="right read_more" href="http://interactions.unist.ac.kr">read more</a>
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-7 col-xs-7 right">
+      <div class="lab_name">BCI lab</div>
+      <div class="lab_full_name">뇌-컴퓨터 인터페이스 연구실</div>
+      <div class="lab_vision">“뇌공학 연구를 통한 인간행동과 뇌기전 이해 및 인간 삶에 필요한 기술 개발”></div>
+      <div class="lab_description web">뇌-컴퓨터 상호관계 연구실에서는 인간의 이해를 위하여 뇌신호를 측정, 분석하여 뇌 안의 활동 기전을 고찰하고 이를 바탕으로 인간의 삶에 필요한 기술을 개발하는 연구를 합니다. 우리 연구실의 주요 연구 분야는 ‘뇌-컴퓨터 상호관계‘, ‘뉴로 마케팅‘, ‘생체 인증’, ‘촉각 뇌영상‘, ‘로보틱 촉감 모델링‘을 포함합니다.</div>
+      
+      <a class="read_more" href="http://bci.unist.ac.kr">read more</a>
+    </div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/BCILab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/BCILab.png", class: "lab_image") %>    -->
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/ErgoLab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/ErgoLab.png", class: "lab_image") %>    -->
+    </div>
+    <div class="col-md-7 col-xs-7">
+      <div class="lab_name">Ergo lab</div>
+      <div class="lab_full_name">인체공학 연구실</div>
+      <div class="lab_vision">“인체공학적 분석을 통해 편리하고 안전한 제품과 환경 설계”</div>
+      <div class="lab_description web">인체공학 연구실에서는 동작 분석 카메라, 근전도 센서, 시뮬레이션 등을 활용하여 다양한 생체신호를 측정 및 분석하고, 이를 바탕으로 인간과 제품 혹은 환경과의 물리적 상호작용을 연구합니다. 주요 연구 분야는 근골격계 질환과 부상의 발생을 예방하고 재활을 도와주기 위한 ‘의료 생체역학’, 인체 특성에 최적화되어 사용하기 편리하고 안전한 제품을 설계하는 ‘인체공학적 디자인’을 포함합니다.</div>
+      
+      <a class="right read_more" href="http://ergolab.unist.ac.kr/">read more</a>
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-7 col-xs-7 right">
+      <div class="lab_name">Healthcare Lab</div>
+      <div class="lab_full_name">헬스케어 조사 & 기계 연구실</div>
+      <div class="lab_vision">“인간이 건강한 삶을 살게 하는 기술”</div>
+      <div class="lab_description web">헬스케어 영역에서 큰 변화가 진행되고 있습니다. 현대화된 사회에서 스트레스로 인해 정신건강에 대한 비용 증가합니다. 비만, 당뇨, 고혈압 등의 생활습관과 밀접한 만성질환이 중요해집니다. 수명연장으로 인해 노화, 치매 등의 문제가 발생합니다. 인간은 병원에서 뿐 아니라 일상생활에서도 더 많은 의학적인 도움을 필요로 하게 됩니다. 헬스케어연구실은 이런 문제를 인간공학적 관점에서 바라보고자 합니다.</div>
+      
+      <a class="read_more" href="https://sites.google.com/view/unist-healthcare-lab">read more</a>
+    </div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/HealthcareLab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/HealthcareLab.png", class: "lab_image") %>    -->
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/IXLab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/IXLab.png", class: "lab_image") %>    -->
+    </div>
+    <div class="col-md-7 col-xs-7">
+      <div class="lab_name">IX Lab</div>
+      <div class="lab_full_name">상호작용 & 경험 연구실</div>
+      <div class="lab_vision">“인간공학적 시각에 근거하여 더욱 효율적이고 실용적인 제품과 시스템 평가 및 개발”</div>
+      <div class="lab_description web">IX lab 의 연구 목적은 인간의 신체적, 인지적, 정서적 요인을 고려하여 더 나은 인간 - 시스템 인터페이스를 설계하고 다양한 시스템을 개선하는 것입니다. IX lab 에서는 사용자 경험 (UX)을 향상시키기 위해 더 나은 디자인 / 제품 / 시스템을 (ex. 편안하고, 편리하고, 만족스럽고, 유용하고, 효과적이며, 즐겁고, 즐겁고, 즐겁게) 만들기 위해 노력합니다. 이제 'i'는 혁신적이고 직관적이며 통찰력 있고 지능적이며 포괄적 인 인터페이스 / 상호 작용으로 확장되었습니다.</div>
+      
+      <a class="right read_more" href="http://ixlab.unist.ac.kr">read more</a>
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-7 col-xs-7 right">
+      <div class="lab_name">Perception & Action Lab</div>
+      <div class="lab_full_name">지각-행동 연구실</div>
+      <div class="lab_vision">“인간은 어떻게 각자의 지각된 세상을 만들어내는가?”</div>
+      <div class="lab_description web">지각-행동 연구실은 1) 인간의 지각 체계가 어떻게 불완전하고 불명확한 감각자극을 처리하여 주변 세상에 대한 명료한 표상을 만들어내고, 2) 이에 대한 효과적인 반응을 산출해 낼 수 있는지를 연구하며,  3) 또한, 이러한 연구 결과들을 삶의 질을 향상시키는데 응용하는 것을 목표로 하고 있습니다.</div>
+      
+      <a class="read_more" href="http://pal.unist.ac.kr/">read more</a>
+    </div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/PerceptionLab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/PerceptionLab.png", class: "lab_image") %>    -->
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/ColorLab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/ColorLab.png", class: "lab_image") %>    -->
+    </div>
+    <div class="col-md-7 col-xs-7">
+      <div class="lab_name">Color Lab</div>
+      <div class="lab_full_name">색채공학 연구실</div>
+      <div class="lab_vision">“색채 및 영상에 대한 인간의 시지각 특성 연구”</div>
+      <div class="lab_description web">색채과학은 사람이 인지하는 색에 관해 연구하는 과학 분야 입니다. 색채 및 감성공학 연구실에서는 색, 질감과 같은 시각 특성에 관한 수학적 모델을 개발하고, 시각 특성과 감성의 관계에 관한 연구를 진행하고 있으며, 이를 디스플레이 화질 향상, 감성 조명 개발 등에 응용하는 것을 목표로 합니다.</div>
+      
+      <a class="right read_more" href="http://yskwak.unist.ac.kr">read more</a>
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-1 col-xs-1"></div>
+    <div class="col-md-7 col-xs-7 right">
+      <div class="lab_name">DNCE Lab</div>
+      <div class="lab_full_name">의사결정 및 인지신경공학 연구실</div>
+      <div class="lab_vision">“인간의 뇌는 어떻게 가치평가와 결정을 내리는가?”</div>
+      <div class="lab_description web">의사결정 및 인지신경공학 연구실은 다양한 경제학적 실험들과 뇌 영상을 이용해 인간의 뇌가 어떤 기작을 통해 사회적/비사회적 정보를 처리하는지를 연구합니다. 더 나아가 건강한 사람들의 행동 패턴을 이용해 설계한 계산신경 모델을 기반으로 정신질환을 앓고있는 사람들의 행동 결정에 대한 이해를 하고자합니다.</div>
+      
+      <a class="read_more" href="http://dnce.unist.ac.kr/">read more</a>
+    </div>
+    <div class="col-md-3 col-xs-3">
+      <img src= "{% static 'images/research/PerceptionLab.png'%}" class="lab_image">
+      <!-- <%= image_tag("research/PerceptionLab.png", class: "lab_image") %>    -->
+    </div>
+    <div class="col-md-1 col-xs-1"></div>
+  </div><!-- row -->
+
+</div> <!-- container -->
+
+{% endblock content %}

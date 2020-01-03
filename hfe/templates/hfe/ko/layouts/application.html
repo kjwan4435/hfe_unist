@@ -1,0 +1,201 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- <meta charset="UTF-8"> -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <title>HFE UNIST</title>
+
+  <link rel="stylesheet" href="{% static 'stylesheets/about.css' %}">
+  <link rel="stylesheet" href="{% static 'stylesheets/animate.css' %}">
+  <link rel="stylesheet" href="{% static 'stylesheets/application.css' %}">
+  <link rel="stylesheet" href="{% static 'stylesheets/curriculum.css' %}">
+  <link rel="stylesheet" href="{% static 'stylesheets/footer.css' %}">
+  <link rel="stylesheet" href="{% static 'stylesheets/faculty.css' %}">
+  <link rel="stylesheet" href="{% static 'stylesheets/home.scss' %}">
+  <link rel="stylesheet" href="{% static 'stylesheets/main.css' %}">
+  <link rel="stylesheet" href="{% static 'stylesheets/modern-business.css' %}">
+  <link rel="stylesheet" href="{% static 'stylesheets/navbar.css' %}">
+  <link rel="stylesheet" href="{% static 'stylesheets/navbar_deco.css' %}">
+  <link rel="stylesheet" href="{% static 'stylesheets/news.css' %}">
+  <!-- <link rel="stylesheet" href="{% static 'stylesheets/notices.scss' %}"> -->
+  <!-- <link rel="stylesheet" href="{% static 'stylesheets/posts.scss' %}"> -->
+  <link rel="stylesheet" href="{% static 'stylesheets/research.css' %}">
+  <link rel="stylesheet" href="{% static 'stylesheets/scaffolds.scss' %}">
+
+  <script src="{% static 'javascripts/application.js' %}"></script>
+  <script src="{% static 'javascripts/jquery.js' %}"></script>
+  <script src="{% static 'javascripts/respond.min.js' %}"></script>
+
+  <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"></script>
+	
+</head>
+<body data-no-turbolink>
+ <!-- Navigation -->
+  {% if request.path == '/ko/' %}
+    <nav class="navbar navbar-inverse" id="slide-nav" style="background: white; border-width: 0px; height: 110px;">
+  {% else %}
+    <nav class="navbar" id="slide-nav" style="background: url({% static 'images/navbar_deco/banner.png' %}) no-repeat center center; border-width: 0px; height: auto; background-size: cover;">
+  {% endif %}
+  <!-- <% if action_name != 'main' %>
+    <nav class="navbar" id="slide-nav" style="background: url(<%= asset_path 'navbar_deco/banner.png' %>) no-repeat center center; border-width: 0px; height: auto; background-size: cover;">
+  <% else %> -->
+    <!-- <nav class="navbar navbar-inverse" id="slide-nav" style="background: white; border-width: 0px; height: 110px;"> -->
+  <!-- <% end %> -->
+  <!-- 여기 참고 https://stackoverflow.com/questions/2882490/how-to-get-the-current-url-within-a-django-template -->
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header" style="height: 80px;">
+      <a class="navbar-toggle"> 
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+       </a>
+      
+		<a href="{% url 'ko_main' %}" style="color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;" id="logo"><img src="{% static 'images/logo.png' %}" alt=""></a>
+      <!-- <%= link_to image_tag('logo.png'), root_path, style:"color:black;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px; margin-top: 25px; margin-left: 10px;", id:"logo" %>  -->
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right" id="nav_ul" style="margin-top: 25px;">
+        <li>
+          <a href="{% url 'ko_about' %}">소개</a>
+          <!-- <%= link_to (t 'navbar.menu1'), home_about_path, style: "" %>  -->
+        </li>
+        <li>
+          <a href="{% url 'ko_research' %}">연구</a>
+          <!-- <%= link_to (t 'navbar.menu2'), home_research_path, style: "" %>  -->
+        </li>
+        <li>
+          <a href="{% url 'ko_curriculum' %}">교육과정</a>
+          <!-- <%= link_to (t 'navbar.menu3'), home_curriculum_path,  method: :get, style: "" %>  -->
+        </li>
+        {% comment %} <li>
+          <a href="{% url 'news' %}">News</a>
+          <%= link_to (t 'navbar.menu4'), posts_path,  style: "" %> 
+        </li> {% endcomment %}
+        <li style="margin-right: 30px;">
+          <a href="{% url 'ko_faculty' %}">사람들</a>
+          <!-- <%= link_to (t 'navbar.menu5'), home_faculty_path, style: "" %>  -->
+        </li>
+        <li>
+          <div class="language_selector">
+            <!-- <a href="/ko"><%= image_tag((t 'navbar.language_selector_img_path'), style: "width:20%;") %></a> -->
+            <a href="/en"><img src="{% static 'images/navbar_deco/language_selector_ko.png' %}" alt="" style="width:20%;"></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div id="slidemenu">
+      <div id="slide_logo">
+        <img src="{% static 'images/logo_white.png' %}" alt="" style="width:50%; margin-top:45px; margin-left:25%;">
+        <!-- <%= image_tag("logo_white.png", style:"width:50%; margin-top:45px; margin-left:25%;") %>  -->
+      </div>
+      <div id="slide_lang">
+        <div class="lang_item">
+          <img src="{% static 'images/person.png' %}" alt="" style="width: 18%;">
+          <!-- <%= image_tag("person.png", style: "width: 18%;") %> -->
+        </div>
+        <div class="lang_item"><a href="/ko">KOR</a></div>
+        <div class="lang_item"><a href="/en">ENG</a></div>
+      </div>
+      <ul class="nav navbar-nav">
+       <li>
+         <a href="{% url 'en_about' %}">소개</a>
+          <!-- <%= link_to (t 'navbar.menu1'), home_about_path, style: "" %>  -->
+        </li>
+        <li>
+          <a href="{% url 'en_research' %}">연구</a>
+          <!-- <%= link_to (t 'navbar.menu2'), home_research_path, style: "" %>  -->
+        </li>
+        <li>
+          <a href="{% url 'en_curriculum' %}">교육</a>
+          <!-- <%= link_to (t 'navbar.menu3'), home_curriculum_path,  method: :get, style: "" %>  -->
+        </li>
+        {% comment %} <li>
+          <a href="{% url 'about' %}">About</a>
+          <%= link_to (t 'navbar.menu4'), posts_path,  style: "" %> 
+        </li> {% endcomment %}
+        <li style="margin-right: 30px;">
+          <a href="{% url 'en_faculty' %}">사람들</a>
+          <!-- <%= link_to (t 'navbar.menu5'), home_faculty_path, style: "" %>  -->
+        </li>
+      </ul>          
+     </div>
+     
+
+      {% if request.path != '/ko/' %}
+        <div class="navbar_deco_wrapper web">
+          <div class="row">
+            <div class="col-md-9 col-xs-9">
+              <div style="margin-left:7%; margin-top:1%;">
+                <span style="font-size:2.2rem; color:#7A7778;">“People-friendly Design through Science and Engineering”</span> <br/>
+                <span style="font-size:1.5rem; color:#7A7778;">Department of Human Factors Engineering</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+     <!-- TODO -->
+      <!-- <% if action_name != 'main' %>
+      <div class="navbar_deco_wrapper web">
+      <div class="row">
+        <div class="col-md-9 col-xs-9">
+          <div style="margin-left:7%; margin-top:1%;">
+            <span style="font-size:2.2rem; color:#7A7778;">“People-friendly Design through Science and Engineering”</span> <br/>
+            <span style="font-size:1.5rem; color:#7A7778;">Department of Human Factors Engineering</span>
+          </div>
+        </div>
+      </div>
+      </div>
+      <% end %> -->
+
+    <!-- /.navbar-collapse -->
+  <!-- </div> -->
+  <!-- /.container -->
+</nav>
+
+<div id="page-content">
+
+{% block content %}
+	
+{% endblock content %}
+
+<!-- Footer -->
+<footer>
+	<div style="display: table; height:100%; width:100%; color:white;">
+		<div style="display: table-cell; vertical-align: middle; width:10%; font-size: 36px; text-align: center;">
+			HFE
+		</div>
+		<div style="display: table-cell; vertical-align: middle; width:90%; font-size: 14px; font-family: 'kopub_dotum_light'; font-weight: 100; line-height: 16px;">
+      유니스트 디자인 및 인간공학부<br/>
+      (44919) 울산광역시 울주군 언양읍 유니스트길 50<br/>
+			Tel: 052-217-3566 Fax: 052-217-0114
+		</div>
+	</div>
+</footer>
+	
+</div>
+
+{% comment %} <%= render 'layouts/navbar' %>
+<div id="page-content">
+<%= yield %>
+<%= render 'layouts/footer' %>
+</div> {% endcomment %}
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+.faculty_title{
+	text-align: center;
+	margin-bottom:150px;
+}
+
+.row{
+	margin-bottom:150px;
+}
+
+.faculty_brief{
+	margin-top:40px;
+}
+
+.faculty_brief .professor_position{
+	font-weight:300;
+	color: #5B5B5B;
+}
+
+.faculty_brief .professor_email{
+	font-weight:300;
+	color:#7A7A7A;
+}
+
+.faculty_brief .professor_phone{
+	font-weight:300;
+	color:#7A7A7A;
+	font-size:1.47rem;
+}
+
+.faculty_detail div{
+	color: #B2B3B4;
+	font-weight: 300;
+	font-size:1.47rem;
+}
+
+.professor_name{
+	font-size:2.1rem;
+}
+
+.professor_position{
+	font-size: 1.5rem;
+}
+
+.professor_email{
+	font-size: 1.45rem;
+}
+
+
+
+@media screen and (max-width:769px) {
+  .faculty_detail{
+		clear:left;
+	}
+  .faculty_pic{
+    /*margin-top:10%;*/
+    margin-top:2em;
+  }
+  .faculty_brief{
+    margin-top:30px;
+  }
+}

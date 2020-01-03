@@ -1,0 +1,14 @@
+@font-face{
+	font-family:'kopub_dotum_light';
+	src: url('/assets/fonts/KoPubDotumLight.eot');
+	font-weight: normal;
+	font-style: none;
+}
+
+footer{
+	background: #d8d8d8;
+	width:100%;
+	height:150px;
+	position: relative;
+    clear: both;
+}
